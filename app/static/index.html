@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vibte TikTok Pipeline</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+:root{--bg:#0c0f24;--fg:#e2e8f0;--muted:#94a3b8;--card:#0f172a;--border:#1e293b;--accent:#38bdf8;--accent2:#ff823a;--green:#3ccd70;--red:#f87171;--yellow:#fbbf24;--radius:12px;--shadow:0 4px 24px rgba(0,0,0,.4)}
+*{box-sizing:border-box;margin:0;padding:0}html,body{height:100%}
+body{font:14px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg);display:flex;flex-direction:column}
+header{background:rgba(15,23,42,.95);border-bottom:1px solid var(--border);padding:12px 20px;position:sticky;top:0;z-index:10;display:flex;align-items:center;gap:16px}
+header h1{font-size:1.05rem;font-weight:600;color:var(--accent);letter-spacing:.5px}
+header .status-dot{width:8px;height:8px;border-radius:50%;background:var(--muted);transition:background .3s}
+header .status-dot.ok{background:var(--green)}
+header .spacer{flex:1}
+header a.logout{border:1px solid var(--border);padding:6px 12px;border-radius:8px;color:var(--red);font-size:.85rem;text-decoration:none}
+main{flex:1;overflow:auto;padding:24px;display:flex;justify-content:center}
+.wrap{width:100%;max-width:900px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:24px}
+.card h2{font-size:.95rem;font-weight:600;color:var(--fg);margin-bottom:4px}
+.card p.sub{color:var(--muted);font-size:.85rem;margin-bottom:16px}
+.row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+label{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;display:block;margin-bottom:4px}
+input,textarea,select{background:#080c1a;border:1px solid var(--border);color:var(--fg);padding:10px 12px;border-radius:8px;font:inherit;width:100%}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--accent)}
+input.err,textarea.err{border-color:var(--red)}
+button.primary{background:var(--accent);color:#0c0f24;border:none;padding:11px 18px;border-radius:8px;font-weight:600;cursor:pointer}
+button.primary:hover{filter:brightness(1.08)}
+button.ghost{background:transparent;border:1px solid var(--border);color:var(--fg);padding:10px 16px;border-radius:8px;cursor:pointer}
+button.ghost:hover{border-color:var(--accent);color:var(--accent)}
+button:disabled{opacity:.5;cursor:not-allowed}
+.divider{height:1px;background:var(--border);margin:16px 0}
+.stepper{display:flex;gap:8px;justify-content:center;margin-bottom:20px}
+.step-dot{display:flex;flex-direction:column;align-items:center;gap:6px;color:var(--muted);font-size:.75rem;opacity:.6;transition:all .2s;flex:1;max-width:120px}
+.step-dot.active{color:var(--accent);opacity:1}
+.step-dot.done{color:var(--green);opacity:1}
+.step-dot .dot{width:32px;height:32px;border-radius:50%;background:#080c1a;border:2px solid var(--border);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem;transition:all .2s}
+.step-dot.active .dot{background:var(--accent);border-color:var(--accent);color:#0c0f24}
+.step-dot.done .dot{background:var(--green);border-color:var(--green);color:#0c0f24}
+.wizard-step{animation:fadeIn .2s}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+.error{background:rgba(248,113,113,.12);border:1px solid rgba(248,113,113,.3);color:#fecaca;padding:10px 12px;border-radius:8px;margin-top:10px;font-size:.85rem;display:none}
+.error.show{display:block}
+.kv{display:grid;grid-template-columns:130px 1fr;gap:6px 12px;font-size:.85rem;margin-top:12px}
+.kv span:first-child{color:var(--muted)}
+.kv span:last-child{color:var(--fg);font-family:monospace;word-break:break-all}
+.log{background:#080c1a;border:1px solid var(--border);border-radius:8px;padding:12px;height:160px;overflow:auto;font-family:ui-monospace,monospace;font-size:.7rem;line-height:1.5;white-space:pre-wrap;color:#cbd5e1}
+.progress{height:4px;background:var(--border);border-radius:999px;overflow:hidden;margin-top:10px}
+.progress>div{height:100%;background:var(--accent);width:0;transition:width .3s}
+.toast{position:fixed;bottom:20px;right:20px;padding:12px 18px;border-radius:8px;background:var(--card);border:1px solid var(--border);box-shadow:var(--shadow);display:none;z-index:1000;max-width:360px}
+.toast.show{display:block;animation:slide .25s}
+.toast.ok{border-left:3px solid var(--green)}
+.toast.err{border-left:3px solid var(--red)}
+.toast.warn{border-left:3px solid var(--yellow)}
+@keyframes slide{from{transform:translateY(10px);opacity:0}to{transform:translateY(0);opacity:1}}
+.spinner{display:inline-block;width:14px;height:14px;border:2px solid transparent;border-top-color:currentColor;border-radius:50%;animation:spin .7s linear infinite;margin-right:6px;vertical-align:middle}
+@keyframes spin{to{transform:rotate(360deg)}}
+#ttsLines .tts-row{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+#ttsLines .tts-row span.num{width:22px;color:var(--muted);font-size:.75rem;text-align:right}
+#ttsLines .tts-row input{flex:1}
+#ttsLines .tts-row button{width:38px;height:38px;border-radius:8px;background:var(--card);border:1px solid var(--border);cursor:pointer;color:var(--accent);font-size:.9rem}
+#ttsLines .tts-row button:hover{background:rgba(56,189,248,.1)}
+.field-hint{font-size:.7rem;color:var(--muted);margin-top:2px}
+.char-count{font-size:.7rem;color:var(--muted);text-align:right}
+.char-count.over{color:var(--red)}
+video{max-width:100%;border-radius:8px;border:1px solid var(--border);background:#000}
+</style>
+</head>
+<body>
+<header>
+<h1>Vibte TikTok Pipeline</h1>
+<span class="status-dot" id="statusDot" title="health"></span>
+<div class="spacer"></div>
+<a href="/api/auth/logout" class="logout">Logout</a>
+</header>
+<main>
+<div class="wrap">
+
+<!-- Dashboard -->
+<div id="viewDashboard" class="card">
+<h2>Dashboard</h2>
+<p class="sub">Create a new English learning video — Subject → Content → Video → MEGA</p>
+<button class="primary" id="btnNewVideo" style="width:100%;padding:14px;font-size:1rem">+ New Video</button>
+<div id="dashResume" style="display:none;margin-top:16px">
+<div class="divider"></div>
+<p style="color:var(--muted);font-size:.85rem;margin-bottom:8px">Resume draft</p>
+<div class="kv" id="dashDraftInfo"></div>
+<button class="ghost" id="btnResume" style="width:100%;margin-top:10px">Resume</button>
+<button class="ghost" id="btnDiscard" style="width:100%;margin-top:8px;border-color:var(--red);color:var(--red)">Discard draft</button>
+</div>
+</div>
+
+<!-- Wizard -->
+<div id="viewWizard" class="card" style="display:none">
+<div class="stepper" id="wizardStepper">
+<div class="step-dot" data-step="1"><div class="dot">1</div><span>Subject</span></div>
+<div class="step-dot" data-step="2"><div class="dot">2</div><span>Content</span></div>
+<div class="step-dot" data-step="3"><div class="dot">3</div><span>Video</span></div>
+<div class="step-dot" data-step="4"><div class="dot">4</div><span>MEGA</span></div>
+</div>
+
+<!-- S1 -->
+<div id="wizardS1" class="wizard-step">
+<h2>Step 1 — Get Subject</h2>
+<p class="sub">Turn a vague idea into one producible episode.</p>
+<label>Subject — must contain <b>vs</b> (e.g. job vs work)</label>
+<div class="row">
+<input type="text" id="wizSubject" placeholder="job vs work" style="flex:1" autocomplete="off">
+<button class="ghost" id="wizSurprise" style="white-space:nowrap">Surprise me</button>
+</div>
+<div class="field-hint">Min 3 chars, must contain <code>vs</code> or <code>versus</code>. Duplicate slugs are rejected.</div>
+<div id="wizS1Error" class="error"></div>
+<div id="wizS1Preview" style="display:none">
+<div class="kv">
+<span>Slug</span><span id="wizSlug">—</span>
+<span>Topic A</span><span id="wizTopicA">—</span>
+<span>Topic B</span><span id="wizTopicB">—</span>
+<span>Level</span><span id="wizLevel">—</span>
+<span>Subtitle</span><span id="wizSubtitle">—</span>
+</div>
+</div>
+<div class="row" style="margin-top:18px;justify-content:space-between">
+<button class="ghost" id="wizCancel1">Cancel</button>
+<button class="primary" id="wizNext1" disabled>Next →</button>
+</div>
+</div>
+
+<!-- S2 -->
+<div id="wizardS2" class="wizard-step" style="display:none">
+<h2>Step 2 — Make Content</h2>
+<p class="sub">6-slide script. Pre-filled by AI — fully editable. Each TTS line ≤ 280 chars.</p>
+<div class="row">
+<button class="ghost" id="wizRegenerate" style="flex:1">↻ Regenerate</button>
+</div>
+<div class="divider"></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px">
+<div>
+<h4 style="color:var(--accent);margin-bottom:8px">Word 1 — Blue</h4>
+<label>Word</label><input type="text" id="cWord1">
+<label>Part of speech</label><input type="text" id="cWord1Pos" placeholder="Adverb">
+<label>Color</label><input type="color" id="cWord1Color" value="#38bdf8">
+<label>Definition *</label><textarea id="cWord1Def" rows="2" placeholder="Before now or earlier"></textarea>
+<label>Example *</label><textarea id="cWord1Example" rows="2" placeholder='"She already left."'></textarea>
+<label>Icon</label><input type="text" id="cWord1Icon" value="checkmark">
+</div>
+<div>
+<h4 style="color:var(--accent2);margin-bottom:8px">Word 2 — Orange</h4>
+<label>Word</label><input type="text" id="cWord2">
+<label>Part of speech</label><input type="text" id="cWord2Pos" placeholder="Phrase">
+<label>Color</label><input type="color" id="cWord2Color" value="#ff823a">
+<label>Definition *</label><textarea id="cWord2Def" rows="2"></textarea>
+<label>Example *</label><textarea id="cWord2Example" rows="2"></textarea>
+<label>Icon</label><input type="text" id="cWord2Icon" value="group">
+</div>
+</div>
+<div class="divider"></div>
+<h4>Comparison Cards</h4>
+<label>Header *</label><input type="text" id="cCardsHeader" placeholder="ALREADY vs ALL READY">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:10px">
+<div>
+<label>Word 1 subtitle</label><input type="text" id="cWord1CardSub">
+<label>Word 1 lines (one per line)</label><textarea id="cWord1CardLines" rows="3"></textarea>
+</div>
+<div>
+<label>Word 2 subtitle</label><input type="text" id="cWord2CardSub">
+<label>Word 2 lines (one per line)</label><textarea id="cWord2CardLines" rows="3"></textarea>
+</div>
+</div>
+<div class="divider"></div>
+<h4>Quiz</h4>
+<label>Question line 1 *</label><input type="text" id="cQuizQ1">
+<label>Question line 2 *</label><input type="text" id="cQuizQ2">
+<label>Prompt</label><input type="text" id="cQuizPrompt" value="Which one fits?">
+<div class="divider"></div>
+<h4>Result</h4>
+<label>Result line 1 *</label><input type="text" id="cResult1">
+<label>Result line 2 *</label><input type="text" id="cResult2">
+<label>Promo tagline *</label><input type="text" id="cPromoTagline">
+<div class="divider"></div>
+<h4>TTS — 6 lines (27–32s total)</h4>
+<div id="ttsLines"></div>
+<div id="wizS2Error" class="error"></div>
+<div class="row" style="margin-top:16px;justify-content:space-between">
+<button class="ghost" id="wizBack2">← Back</button>
+<button class="primary" id="wizNext2">Next →</button>
+</div>
+</div>
+
+<!-- S3 -->
+<div id="wizardS3" class="wizard-step" style="display:none">
+<h2>Step 3 — Make Video</h2>
+<p class="sub">Pillow frames → edge-tts (GuyNeural) → ffmpeg mux (1080×1920, 30fps).</p>
+<div class="row">
+<button class="primary" id="wizRender" style="flex:1">▶ Render Video</button>
+<button class="ghost" id="wizReRender" style="flex:1;display:none">↻ Re-render</button>
+</div>
+<div id="wizRenderProgress" style="display:none">
+<div class="log" id="wizRenderLog"></div>
+<div class="progress"><div id="wizRenderBar"></div></div>
+<div id="wizRenderStatus" style="margin-top:8px;font-size:.85rem;color:var(--muted)"></div>
+<div id="wizRenderError" class="error"></div>
+</div>
+<div id="wizPreviewBox" style="display:none;margin-top:16px">
+<video id="wizPreviewVideo" controls></video>
+<div class="kv" id="wizVideoMeta"></div>
+</div>
+<div class="row" id="wizS3Nav" style="margin-top:16px;justify-content:space-between;display:none">
+<button class="ghost" id="wizBack3">← Back to edit</button>
+<button class="primary" id="wizNext3">Next →</button>
+</div>
+<div class="row" id="wizS3BackOnly" style="margin-top:16px;justify-content:flex-start">
+<button class="ghost" id="wizBack3a">← Back</button>
+</div>
+</div>
+
+<!-- S4 -->
+<div id="wizardS4" class="wizard-step" style="display:none">
+<h2>Step 4 — Upload to MEGA</h2>
+<p class="sub">Single upload to <code>/Root/tiktok-english/Production/&lt;slug&gt;_&lt;timestamp&gt;.mp4</code></p>
+<div class="kv" id="wizS4FileInfo"></div>
+<div class="row" style="margin-top:16px">
+<button class="primary" id="wizUpload" style="flex:1">☁ Upload to MEGA</button>
+</div>
+<div id="wizUploadProgress" style="display:none">
+<div class="progress"><div id="wizUploadBar"></div></div>
+<div id="wizUploadStatus" style="margin-top:8px;font-size:.85rem;color:var(--muted)">Uploading…</div>
+<div id="wizUploadError" class="error"></div>
+</div>
+<div id="wizUploadResult" style="display:none;margin-top:16px">
+<h4 style="color:var(--green);margin-bottom:8px">✓ Upload complete</h4>
+<div class="kv" id="wizMegaInfo"></div>
+<div class="row" style="margin-top:14px">
+<button class="ghost" id="wizCopyLink" style="flex:1">Copy link</button>
+<button class="ghost" id="wizDownload" style="flex:1">Download local copy</button>
+</div>
+<button class="primary" id="wizNewVideo" style="width:100%;margin-top:10px">Start new video</button>
+</div>
+<div id="wizS4Retry" style="display:none;margin-top:12px">
+<button class="ghost" id="wizRetryUpload" style="width:100%;border-color:var(--yellow);color:var(--yellow)">Retry upload</button>
+</div>
+<div class="row" style="margin-top:12px" id="wizS4BackRow">
+<button class="ghost" id="wizBack4">← Back</button>
+</div>
+</div>
+
+</div>
+
+</div>
+</main>
+<div class="toast" id="toast"></div>
+<script>
+const API="";
+let wizardDraftId = localStorage.getItem("vibte_draft_id") || null;
+let wizardRenderJobId = null;
+let pollTimer = null;
+
+function toast(msg, type="ok"){
+  const t=document.getElementById("toast");
+  t.textContent=msg; t.className="toast show "+type;
+  setTimeout(()=>t.classList.remove("show"),3200);
+}
+function showLoading(btn, on){
+  if(!btn) return;
+  if(on){ btn.dataset.orig=btn.innerHTML; btn.disabled=true; btn.innerHTML='<span class="spinner"></span> Working...'; }
+  else { btn.disabled=false; btn.innerHTML=btn.dataset.orig||btn.textContent; }
+}
+async function req(path, opt={}){
+  const r=await fetch(API+path,{headers:{"Content-Type":"application/json"},...opt});
+  if(r.status===401){ location.href="/login"; throw new Error("Login required"); }
+  if(!r.ok){ const t=await r.text(); let m=t; try{ m=JSON.parse(t).detail||t; }catch{} throw new Error(m); }
+  const ct=r.headers.get("content-type")||"";
+  if(ct.includes("application/json")) return r.json();
+  return r;
+}
+function showView(name){
+  document.getElementById("viewDashboard").style.display = name==="dashboard"?"block":"none";
+  document.getElementById("viewWizard").style.display = name==="wizard"?"block":"none";
+}
+function showWizardStep(n){
+  document.querySelectorAll(".wizard-step").forEach(s=>s.style.display="none");
+  document.getElementById("wizardS"+n).style.display="block";
+  document.querySelectorAll(".step-dot").forEach(d=>{
+    const s=parseInt(d.dataset.step);
+    d.classList.toggle("active", s===n);
+    d.classList.toggle("done", s<n);
+  });
+}
+function rgbToHex(rgb){
+  if(!Array.isArray(rgb)) return "#38bdf8";
+  return "#"+rgb.map(x=>x.toString(16).padStart(2,"0")).join("");
+}
+function hexToRgb(hex){
+  const m=hex.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
+  return m?[parseInt(m[1],16),parseInt(m[2],16),parseInt(m[3],16)]:[56,189,248];
+}
+async function loadDraftResume(){
+  if(!wizardDraftId) return;
+  try{
+    const d=await req("/api/wizard/"+wizardDraftId);
+    document.getElementById("dashResume").style.display="block";
+    document.getElementById("dashDraftInfo").innerHTML=`<span>Draft</span><span>${d.subject.slug||d.draft_id}</span><span>Step</span><span>${d.current_step}</span><span>Subject</span><span>${d.subject.subject}</span>`;
+  }catch{
+    localStorage.removeItem("vibte_draft_id"); wizardDraftId=null;
+  }
+}
+
+document.getElementById("btnNewVideo").onclick=()=>{
+  localStorage.removeItem("vibte_draft_id"); wizardDraftId=null;
+  showView("wizard"); showWizardStep(1);
+  document.getElementById("wizSubject").value="";
+  document.getElementById("wizS1Preview").style.display="none";
+  document.getElementById("wizS1Error").className="error";
+  document.getElementById("wizS1Error").style.display="none";
+  document.getElementById("wizNext1").disabled=true;
+};
+document.getElementById("btnResume").onclick=async()=>{
+  showView("wizard");
+  try{
+    const d=await req("/api/wizard/"+wizardDraftId);
+    restoreDraftToUI(d);
+  }catch(e){ toast(e.message,"err"); }
+};
+document.getElementById("btnDiscard").onclick=async()=>{
+  localStorage.removeItem("vibte_draft_id"); wizardDraftId=null;
+  document.getElementById("dashResume").style.display="none";
+  toast("Draft discarded","warn");
+};
+function restoreDraftToUI(d){
+  const n=d.current_step||1;
+  if(d.subject){
+    document.getElementById("wizSubject").value=d.subject.subject||"";
+    document.getElementById("wizSlug").textContent=d.subject.slug||"—";
+    document.getElementById("wizTopicA").textContent=d.subject.topic_a||"—";
+    document.getElementById("wizTopicB").textContent=d.subject.topic_b||"—";
+    document.getElementById("wizLevel").textContent=d.subject.level||"—";
+    document.getElementById("wizSubtitle").textContent=d.subject.subtitle||"—";
+    if(d.subject.slug) document.getElementById("wizS1Preview").style.display="block";
+    wizardStep1Validate();
+  }
+  if(d.content) fillStep2(d.content);
+  if(d.video && d.video.local_path){
+    document.getElementById("wizPreviewBox").style.display="block";
+    document.getElementById("wizPreviewVideo").src="/api/wizard/"+d.draft_id+"/video";
+    document.getElementById("wizVideoMeta").innerHTML=`<span>Duration</span><span>${(d.video.duration_s||0).toFixed(1)}s</span><span>Size</span><span>${(d.video.size_mb||0).toFixed(1)} MB</span>`;
+    document.getElementById("wizS3Nav").style.display="flex";
+    document.getElementById("wizS3BackOnly").style.display="none";
+    document.getElementById("wizRender").style.display="none";
+    document.getElementById("wizReRender").style.display="block";
+  }
+  if(d.mega && d.mega.mega_link){
+    document.getElementById("wizUploadResult").style.display="block";
+    document.getElementById("wizUpload").style.display="none";
+    document.getElementById("wizMegaInfo").innerHTML=`<span>MEGA path</span><span>${d.mega.mega_path}</span><span>MEGA link</span><span><a href="${d.mega.mega_link}" target="_blank" style="color:var(--accent)">${d.mega.mega_link}</a></span>`;
+    document.getElementById("wizS4FileInfo").innerHTML=`<span>File</span><span>${d.subject.slug}_${d.mega.timestamp}.mp4</span>`;
+  } else if(d.video && d.video.local_path){
+    document.getElementById("wizS4FileInfo").innerHTML=`<span>Video</span><span>${d.video.local_path}</span><span>Size</span><span>${(d.video.size_mb||0).toFixed(1)} MB</span>`;
+  }
+  showWizardStep(n);
+}
+
+// S1
+function wizardStep1Validate(){
+  const v=document.getElementById("wizSubject").value.trim();
+  const err=document.getElementById("wizS1Error");
+  const btn=document.getElementById("wizNext1");
+  if(!v || v.length<3 || !/vs|versus/i.test(v)){
+    btn.disabled=true;
+    if(v) { err.textContent="Min 3 chars, must contain 'vs'."; err.className="error show"; }
+    else err.className="error";
+    return false;
+  }
+  err.className="error"; btn.disabled=false; return true;
+}
+document.getElementById("wizSubject").addEventListener("input", wizardStep1Validate);
+document.getElementById("wizSurprise").onclick=async()=>{
+  const btn=document.getElementById("wizSurprise");
+  showLoading(btn,true);
+  try{
+    const ep=await req("/api/vocab/generate",{method:"POST",body:JSON.stringify({level:"B1"})});
+    document.getElementById("wizSubject").value=(ep.word1+" vs "+ep.word2).toLowerCase();
+    wizardStep1Validate();
+  }catch(e){ toast(e.message,"err"); }
+  finally{ showLoading(btn,false); }
+};
+document.getElementById("wizNext1").onclick=async()=>{
+  const btn=document.getElementById("wizNext1");
+  showLoading(btn,true);
+  try{
+    const subject=document.getElementById("wizSubject").value.trim();
+    const res=await req("/api/wizard/step1",{method:"POST",body:JSON.stringify({subject})});
+    wizardDraftId=res.draft_id;
+    localStorage.setItem("vibte_draft_id", wizardDraftId);
+    document.getElementById("wizSlug").textContent=res.normalized.slug;
+    document.getElementById("wizTopicA").textContent=res.normalized.topic_a;
+    document.getElementById("wizTopicB").textContent=res.normalized.topic_b;
+    document.getElementById("wizLevel").textContent=res.normalized.level;
+    document.getElementById("wizSubtitle").textContent=res.normalized.subtitle;
+    document.getElementById("wizS1Preview").style.display="block";
+    document.getElementById("wizS1Error").className="error";
+    fillStep2(res.content);
+    showWizardStep(2);
+    toast("Subject → "+res.normalized.slug,"ok");
+  }catch(e){
+    const el=document.getElementById("wizS1Error"); el.textContent=e.message; el.className="error show";
+  }finally{ showLoading(btn,false); }
+};
+document.getElementById("wizCancel1").onclick=()=>{
+  showView("dashboard"); loadDraftResume();
+};
+
+// S2
+function fillStep2(c){
+  document.getElementById("cWord1").value=c.word1||"";
+  document.getElementById("cWord1Pos").value=c.word1_pos||"";
+  document.getElementById("cWord1Color").value=rgbToHex(c.word1_color);
+  document.getElementById("cWord1Def").value=c.word1_def||"";
+  document.getElementById("cWord1Example").value=c.word1_example||"";
+  document.getElementById("cWord1Icon").value=c.word1_icon||"checkmark";
+  document.getElementById("cWord2").value=c.word2||"";
+  document.getElementById("cWord2Pos").value=c.word2_pos||"";
+  document.getElementById("cWord2Color").value=rgbToHex(c.word2_color);
+  document.getElementById("cWord2Def").value=c.word2_def||"";
+  document.getElementById("cWord2Example").value=c.word2_example||"";
+  document.getElementById("cWord2Icon").value=c.word2_icon||"group";
+  document.getElementById("cCardsHeader").value=c.cards_header||"";
+  document.getElementById("cWord1CardSub").value=c.word1_card_sub||"";
+  document.getElementById("cWord1CardLines").value=(c.word1_card_lines||[]).join("\n");
+  document.getElementById("cWord2CardSub").value=c.word2_card_sub||"";
+  document.getElementById("cWord2CardLines").value=(c.word2_card_lines||[]).join("\n");
+  document.getElementById("cQuizQ1").value=c.quiz_question?.[0]||"";
+  document.getElementById("cQuizQ2").value=c.quiz_question?.[1]||"";
+  document.getElementById("cQuizPrompt").value=c.quiz_prompt||"Which one fits?";
+  document.getElementById("cResult1").value=c.result_line1||"";
+  document.getElementById("cResult2").value=c.result_line2||"";
+  document.getElementById("cPromoTagline").value=c.promo_tagline||"";
+  renderTts(c.tts||["","","","","",""]);
+}
+function renderTts(tts){
+  const el=document.getElementById("ttsLines");
+  el.innerHTML="";
+  (tts.length?tts:["","","","","",""]).forEach((line,i)=>{
+    const row=document.createElement("div"); row.className="tts-row";
+    row.innerHTML=`<span class="num">${i+1}.</span><input type="text" data-tts="${i}" value="${(line||"").replace(/"/g,'&quot;')}" placeholder="TTS line ${i+1}"><button data-play="${i}" title="Preview TTS">▶</button><span class="char-count" id="ttsCount${i}">${(line||"").length}/280</span>`;
+    el.appendChild(row);
+  });
+  el.querySelectorAll("[data-tts]").forEach(inp=>{
+    inp.addEventListener("input", ()=>{
+      const c=document.getElementById("ttsCount"+inp.dataset.tts);
+      c.textContent=inp.value.length+"/280";
+      c.className=inp.value.length>280?"char-count over":"char-count";
+      inp.classList.toggle("err", !inp.value.trim() || inp.value.length>280);
+    });
+  });
+  el.querySelectorAll("[data-play]").forEach(btn=>{
+    btn.onclick=async()=>{
+      const idx=parseInt(btn.dataset.play);
+      const inp=el.querySelector(`[data-tts="${idx}"]`);
+      const text=inp.value.trim();
+      if(!text) return toast("Enter TTS text first","warn");
+      if(text.length>280) return toast("TTS line exceeds 280 chars","err");
+      btn.disabled=true; const orig=btn.textContent; btn.textContent="…";
+      try{
+        const r=await fetch(API+"/api/wizard/step2/tts-preview",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({draft_id:wizardDraftId,index:idx})});
+        if(!r.ok){ const t=await r.text(); throw new Error(t); }
+        const blob=await r.blob();
+        const url=URL.createObjectURL(blob);
+        const a=new Audio(url); await a.play();
+        toast("Playing TTS "+(idx+1),"ok");
+      }catch(e){ toast(e.message,"err"); }
+      finally{ btn.disabled=false; btn.textContent=orig; }
+    };
+  });
+}
+function collectContent(){
+  return {
+    word1: document.getElementById("cWord1").value.trim(),
+    word1_pos: document.getElementById("cWord1Pos").value.trim(),
+    word1_color: hexToRgb(document.getElementById("cWord1Color").value),
+    word1_def: document.getElementById("cWord1Def").value.trim(),
+    word1_example: document.getElementById("cWord1Example").value.trim(),
+    word1_icon: document.getElementById("cWord1Icon").value.trim()||"checkmark",
+    word2: document.getElementById("cWord2").value.trim(),
+    word2_pos: document.getElementById("cWord2Pos").value.trim(),
+    word2_color: hexToRgb(document.getElementById("cWord2Color").value),
+    word2_def: document.getElementById("cWord2Def").value.trim(),
+    word2_example: document.getElementById("cWord2Example").value.trim(),
+    word2_icon: document.getElementById("cWord2Icon").value.trim()||"group",
+    cards_header: document.getElementById("cCardsHeader").value.trim(),
+    word1_card_sub: document.getElementById("cWord1CardSub").value.trim(),
+    word1_card_lines: document.getElementById("cWord1CardLines").value.split("\n").map(s=>s.trim()).filter(Boolean),
+    word2_card_sub: document.getElementById("cWord2CardSub").value.trim(),
+    word2_card_lines: document.getElementById("cWord2CardLines").value.split("\n").map(s=>s.trim()).filter(Boolean),
+    quiz_question: [document.getElementById("cQuizQ1").value.trim(), document.getElementById("cQuizQ2").value.trim()],
+    quiz_prompt: document.getElementById("cQuizPrompt").value.trim()||"Which one fits?",
+    result_line1: document.getElementById("cResult1").value.trim(),
+    result_line2: document.getElementById("cResult2").value.trim(),
+    promo_tagline: document.getElementById("cPromoTagline").value.trim(),
+    tts: Array.from(document.querySelectorAll("[data-tts]")).map(i=>i.value.trim()),
+  };
+}
+function validateStep2(){
+  const c=collectContent();
+  const errs=[];
+  if(!c.word1) errs.push("word1 required");
+  if(!c.word1_def) errs.push("word1 definition required");
+  if(!c.word1_example) errs.push("word1 example required");
+  if(!c.word2) errs.push("word2 required");
+  if(!c.word2_def) errs.push("word2 definition required");
+  if(!c.word2_example) errs.push("word2 example required");
+  if(!c.cards_header) errs.push("cards_header required");
+  if(!c.quiz_question[0]||!c.quiz_question[1]) errs.push("quiz_question needs 2 lines");
+  if(!c.result_line1) errs.push("result_line1 required");
+  if(!c.result_line2) errs.push("result_line2 required");
+  if(!c.promo_tagline) errs.push("promo_tagline required");
+  if(c.tts.length!==6) errs.push("tts must have exactly 6 lines");
+  else c.tts.forEach((t,i)=>{ if(!t) errs.push(`tts[${i+1}] empty`); else if(t.length>280) errs.push(`tts[${i+1}] >280 chars`); });
+  return {c, errs};
+}
+document.getElementById("wizRegenerate").onclick=async()=>{
+  const btn=document.getElementById("wizRegenerate");
+  showLoading(btn,true);
+  try{
+    const res=await req("/api/wizard/step2/generate",{method:"POST",body:JSON.stringify({draft_id:wizardDraftId})});
+    fillStep2(res.content); toast("Regenerated from AI","ok");
+  }catch(e){ toast(e.message,"err"); }
+  finally{ showLoading(btn,false); }
+};
+document.getElementById("wizNext2").onclick=async()=>{
+  const btn=document.getElementById("wizNext2");
+  const {errs}=validateStep2();
+  const el=document.getElementById("wizS2Error");
+  if(errs.length){ el.innerHTML=errs.map(e=>"• "+e).join("<br>"); el.className="error show"; toast(errs[0],"err"); return; }
+  el.className="error";
+  showLoading(btn,true);
+  try{
+    const c=collectContent();
+    await req("/api/wizard/step2/save",{method:"POST",body:JSON.stringify({draft_id:wizardDraftId,content:c})});
+    showWizardStep(3);
+    document.getElementById("wizS3Nav").style.display="none";
+    document.getElementById("wizS3BackOnly").style.display="flex";
+    document.getElementById("wizRender").style.display="block";
+    document.getElementById("wizReRender").style.display="none";
+    document.getElementById("wizRenderProgress").style.display="none";
+    document.getElementById("wizPreviewBox").style.display="none";
+    document.getElementById("wizRenderLog").textContent="";
+    document.getElementById("wizRenderBar").style.width="0%";
+    toast("Content saved — ready to render","ok");
+  }catch(e){ el.textContent=e.message; el.className="error show"; toast(e.message,"err"); }
+  finally{ showLoading(btn,false); }
+};
+document.getElementById("wizBack2").onclick=()=>showWizardStep(1);
+
+// S3
+document.getElementById("wizRender").onclick=()=>startRender();
+document.getElementById("wizReRender").onclick=()=>startRender();
+document.getElementById("wizBack3").onclick=()=>showWizardStep(2);
+document.getElementById("wizBack3a").onclick=()=>showWizardStep(2);
+document.getElementById("wizNext3").onclick=async()=>{
+  try{
+    const d=await req("/api/wizard/"+wizardDraftId);
+    document.getElementById("wizS4FileInfo").innerHTML=`<span>Video</span><span>${d.video.local_path}</span><span>Duration</span><span>${(d.video.duration_s||0).toFixed(1)}s</span><span>Size</span><span>${(d.video.size_mb||0).toFixed(1)} MB</span>`;
+    if(d.mega && !d.mega.timestamp){
+      // timestamp will be generated on first upload entry — keep idempotency
+    }
+    document.getElementById("wizUpload").style.display="block";
+    document.getElementById("wizUploadResult").style.display="none";
+    document.getElementById("wizUploadProgress").style.display="none";
+    document.getElementById("wizS4Retry").style.display="none";
+    document.getElementById("wizUploadBar").style.width="0%";
+  }catch{}
+  showWizardStep(4);
+};
+async function startRender(){
+  const btn=document.getElementById("wizRender");
+  showLoading(btn,true);
+  document.getElementById("wizRenderProgress").style.display="block";
+  document.getElementById("wizRenderError").className="error";
+  document.getElementById("wizRenderLog").textContent="";
+  document.getElementById("wizRenderBar").style.width="5%";
+  document.getElementById("wizRenderStatus").textContent="Queuing…";
+  try{
+    const res=await req("/api/wizard/step3/render",{method:"POST",body:JSON.stringify({draft_id:wizardDraftId})});
+    wizardRenderJobId=res.job_id;
+    pollRender(wizardRenderJobId);
+  }catch(e){
+    document.getElementById("wizRenderError").textContent=e.message;
+    document.getElementById("wizRenderError").className="error show";
+    toast(e.message,"err");
+  }finally{ showLoading(btn,false); }
+}
+function pollRender(jid){
+  if(pollTimer) clearInterval(pollTimer);
+  let off=0;
+  const logEl=document.getElementById("wizRenderLog");
+  const bar=document.getElementById("wizRenderBar");
+  const status=document.getElementById("wizRenderStatus");
+  const errEl=document.getElementById("wizRenderError");
+  pollTimer=setInterval(async()=>{
+    try{
+      const j=await req("/api/jobs/"+jid);
+      const n=j.logs.slice(off);
+      if(n.length){ logEl.textContent+=(logEl.textContent?"\n":"")+n.join("\n"); logEl.scrollTop=logEl.scrollHeight; off=j.logs.length; }
+      if(j.status==="running"){ bar.style.width="50%"; status.textContent="Rendering — Pillow + TTS + ffmpeg…"; }
+      else if(j.status==="done"){
+        clearInterval(pollTimer); bar.style.width="100%"; status.textContent="✓ Render complete";
+        document.getElementById("wizPreviewBox").style.display="block";
+        document.getElementById("wizPreviewVideo").src="/api/wizard/"+wizardDraftId+"/video?t="+Date.now();
+        document.getElementById("wizVideoMeta").innerHTML=`<span>Duration</span><span>${(j.result.duration||0).toFixed(1)}s</span><span>Size</span><span>${(j.result.size_mb||0).toFixed(1)} MB</span><span>Artifact</span><span>${j.result.artifacts?.video||""}</span>`;
+        document.getElementById("wizS3Nav").style.display="flex";
+        document.getElementById("wizS3BackOnly").style.display="none";
+        document.getElementById("wizRender").style.display="none";
+        document.getElementById("wizReRender").style.display="block";
+        document.getElementById("wizReRender").disabled=false;
+        try{ await req("/api/wizard/step3/poll",{method:"POST",body:JSON.stringify({job_id:jid})}); }catch{}
+        toast("Preview ready","ok");
+      } else if(j.status==="error"){
+        clearInterval(pollTimer); bar.style.width="100%"; bar.style.background="var(--red)"; status.textContent="✗ Render failed";
+        errEl.textContent=j.error||"Render failed — retry";
+        errEl.className="error show";
+        document.getElementById("wizReRender").style.display="block";
+        document.getElementById("wizReRender").disabled=false;
+        toast(j.error||"Render failed","err");
+      }
+    }catch{ clearInterval(pollTimer); }
+  },1800);
+}
+
+// S4
+document.getElementById("wizBack4").onclick=()=>showWizardStep(3);
+document.getElementById("wizUpload").onclick=()=>doUpload();
+document.getElementById("wizRetryUpload").onclick=()=>doUpload();
+async function doUpload(){
+  const btn=document.getElementById("wizUpload");
+  showLoading(btn,true);
+  document.getElementById("wizUploadProgress").style.display="block";
+  document.getElementById("wizUploadError").className="error";
+  document.getElementById("wizUploadBar").style.width="30%";
+  document.getElementById("wizUploadStatus").textContent="Uploading to MEGA…";
+  document.getElementById("wizS4Retry").style.display="none";
+  try{
+    const res=await req("/api/wizard/step4/upload",{method:"POST",body:JSON.stringify({draft_id:wizardDraftId})});
+    document.getElementById("wizUploadBar").style.width="100%";
+    document.getElementById("wizUploadStatus").textContent="✓ Upload complete";
+    document.getElementById("wizUploadResult").style.display="block";
+    document.getElementById("wizUpload").style.display="none";
+    document.getElementById("wizMegaInfo").innerHTML=`<span>MEGA path</span><span>${res.mega_path}</span><span>MEGA link</span><span><a href="${res.mega_link}" target="_blank" style="color:var(--accent)">${res.mega_link}</a></span>`;
+    document.getElementById("wizS4FileInfo").innerHTML=`<span>File</span><span>${res.mega_path.split("/").pop()}</span>`;
+    toast("Uploaded to MEGA","ok");
+  }catch(e){
+    document.getElementById("wizUploadBar").style.width="100%";
+    document.getElementById("wizUploadBar").style.background="var(--red)";
+    document.getElementById("wizUploadStatus").textContent="✗ Upload failed";
+    const el=document.getElementById("wizUploadError"); el.textContent=e.message; el.className="error show";
+    document.getElementById("wizS4Retry").style.display="block";
+    toast(e.message,"err");
+  }finally{ showLoading(btn,false); }
+}
+document.getElementById("wizCopyLink").onclick=async()=>{
+  const a=document.getElementById("wizMegaInfo").querySelector("a");
+  if(a){ await navigator.clipboard.writeText(a.href); toast("Link copied","ok"); }
+};
+document.getElementById("wizDownload").onclick=()=>{
+  const a=document.createElement("a");
+  a.href="/api/wizard/"+wizardDraftId+"/video";
+  a.download="";
+  a.click();
+};
+document.getElementById("wizNewVideo").onclick=()=>{
+  localStorage.removeItem("vibte_draft_id"); wizardDraftId=null; wizardRenderJobId=null;
+  showView("dashboard");
+  document.getElementById("dashResume").style.display="none";
+  document.getElementById("wizS1Preview").style.display="none";
+  document.getElementById("wizUploadResult").style.display="none";
+  document.getElementById("wizPreviewBox").style.display="none";
+  document.getElementById("wizRenderProgress").style.display="none";
+  document.getElementById("wizUploadProgress").style.display="none";
+  document.getElementById("wizSubject").value="";
+  document.getElementById("wizNext1").disabled=true;
+  toast("Ready for next video","ok");
+};
+
+async function init(){
+  try{ await req("/api/health"); document.getElementById("statusDot").classList.add("ok"); }catch{}
+  if(wizardDraftId){
+    try{
+      const d=await req("/api/wizard/"+wizardDraftId);
+      if(d.current_step>=1 && d.current_step<=4){
+        showView("wizard"); restoreDraftToUI(d);
+      } else {
+        showView("dashboard"); await loadDraftResume();
+      }
+    }catch{ showView("dashboard"); }
+  } else {
+    showView("dashboard");
+  }
+  await loadDraftResume();
+}
+init();
+</script>
+</body>
+</html>

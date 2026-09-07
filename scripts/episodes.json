@@ -1,0 +1,4038 @@
+[
+  {
+    "id": "already-vs-allready",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ALREADY",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ALL READY",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adverb",
+    "word1_def": "Before now or earlier",
+    "word1_example": "\"She already left for work.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Phrase",
+    "word2_def": "Everyone is prepared",
+    "word2_example": "\"We are all ready to go.\"",
+    "word2_icon": "group",
+    "cards_header": "ALREADY vs ALL READY",
+    "word1_card_sub": "Before that time",
+    "word1_card_lines": [
+      "Already done",
+      "Earlier than expected"
+    ],
+    "word2_card_sub": "Everyone prepared",
+    "word2_card_lines": [
+      "Fully ready",
+      "All of us are set"
+    ],
+    "quiz_question": [
+      "Are you ___ to leave, or do you",
+      "need another minute?"
+    ],
+    "result_line1": "ALREADY = before now",
+    "result_line2": "ALL READY = everyone prepared",
+    "promo_tagline": "Already vs All Ready — Know the difference.",
+    "tts": [
+      "B1 English: already versus all ready.",
+      "Already means before now or earlier. She already left for work.",
+      "All ready means everyone or everything is prepared. We are all ready to go.",
+      "Already is about time. All ready is about preparation. Know the difference.",
+      "Quiz: Are you blank to leave, or do you need another minute?",
+      "Answer: all ready. Already means before now, all ready means prepared."
+    ]
+  },
+  {
+    "id": "affect-vs-effect",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "AFFECT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "EFFECT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To influence something",
+    "word1_example": "\"The weather affects my mood.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Noun",
+    "word2_def": "The result of a change",
+    "word2_example": "\"The effect was immediate.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "AFFECT vs EFFECT",
+    "word1_card_sub": "To influence",
+    "word1_card_lines": [
+      "Action verb",
+      "Climate affects crops"
+    ],
+    "word2_card_sub": "A result",
+    "word2_card_lines": [
+      "Usually a noun",
+      "The effect of the medicine"
+    ],
+    "quiz_question": [
+      "The new law will ___",
+      "small businesses."
+    ],
+    "result_line1": "AFFECT = to influence (verb)",
+    "result_line2": "EFFECT = a result (noun)",
+    "promo_tagline": "Affect vs Effect — Know the difference.",
+    "tts": [
+      "B1 English: affect versus effect.",
+      "Affect means to influence something. The weather affects my mood.",
+      "Effect is the result of a change. The effect was immediate.",
+      "Affect is a verb, effect is usually a noun. Know the difference.",
+      "Quiz: The new law will blank small businesses.",
+      "Answer: affect. Affect is a verb meaning to influence."
+    ]
+  },
+  {
+    "id": "its-vs-its",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ITS",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "IT'S",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Possessive Pronoun",
+    "word1_def": "Belonging to it",
+    "word1_example": "\"The cat licked its paw.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Contraction",
+    "word2_def": "It is or it has",
+    "word2_example": "\"It's raining outside.\"",
+    "word2_icon": "inbox",
+    "cards_header": "ITS vs IT'S",
+    "word1_card_sub": "Belongs to it",
+    "word1_card_lines": [
+      "Possessive like his/her",
+      "No apostrophe"
+    ],
+    "word2_card_sub": "It is / It has",
+    "word2_card_lines": [
+      "Contraction",
+      "Always has apostrophe"
+    ],
+    "quiz_question": [
+      "The dog wagged ___ tail",
+      "when I came home."
+    ],
+    "result_line1": "ITS = belonging to it",
+    "result_line2": "IT'S = it is / it has",
+    "promo_tagline": "Its vs It's — Know the difference.",
+    "tts": [
+      "A2 English: its versus it's.",
+      "Its shows possession. The cat licked its paw.",
+      "It's is a contraction of it is or it has. It's raining outside.",
+      "Its is possessive. It's means it is. Know the difference.",
+      "Quiz: The dog wagged blank tail when I came home.",
+      "Answer: its. Its shows possession, it's means it is."
+    ]
+  },
+  {
+    "id": "their-vs-there-vs-theyre",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "THEIR",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "THERE / THEY'RE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Possessive Pronoun",
+    "word1_def": "Belonging to them",
+    "word1_example": "\"Their house is big.\"",
+    "word1_icon": "group",
+    "word2_pos": "Adverb / Contraction",
+    "word2_def": "Location / They are",
+    "word2_example": "\"There it is! They're happy.\"",
+    "word2_icon": "inbox",
+    "cards_header": "THEIR vs THERE",
+    "word1_card_sub": "Belongs to them",
+    "word1_card_lines": [
+      "Their car",
+      "Their idea"
+    ],
+    "word2_card_sub": "Place / They are",
+    "word2_card_lines": [
+      "Over there",
+      "They're coming"
+    ],
+    "quiz_question": [
+      "___ going to meet us",
+      "at ___ house later."
+    ],
+    "result_line1": "THEIR = belonging to them",
+    "result_line2": "THERE = place / THEY'RE = they are",
+    "promo_tagline": "Their vs There vs They're — Know the difference.",
+    "tts": [
+      "A2 English: their versus there versus they're.",
+      "Their shows possession. Their house is big.",
+      "There shows location. And they're is short for they are.",
+      "Their is possession. There is place. They're is they are.",
+      "Quiz: Blank going to meet us at blank house later.",
+      "Answer: they're and their."
+    ]
+  },
+  {
+    "id": "your-vs-youre",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "YOUR",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "YOU'RE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Possessive Pronoun",
+    "word1_def": "Belonging to you",
+    "word1_example": "\"Is this your phone?\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Contraction",
+    "word2_def": "You are",
+    "word2_example": "\"You're very kind.\"",
+    "word2_icon": "inbox",
+    "cards_header": "YOUR vs YOU'RE",
+    "word1_card_sub": "Belongs to you",
+    "word1_card_lines": [
+      "Your book",
+      "Your turn"
+    ],
+    "word2_card_sub": "You are",
+    "word2_card_lines": [
+      "You're late",
+      "You're amazing"
+    ],
+    "quiz_question": [
+      "I think ___ going to love",
+      "___ new present!"
+    ],
+    "result_line1": "YOUR = belonging to you",
+    "result_line2": "YOU'RE = you are",
+    "promo_tagline": "Your vs You're — Know the difference.",
+    "tts": [
+      "A2 English: your versus you're.",
+      "Your shows possession. Is this your phone?",
+      "You're is a contraction of you are. You're very kind.",
+      "Your is possessive. You're means you are. Know the difference.",
+      "Quiz: I think blank going to love blank new present.",
+      "Answer: you're and your."
+    ]
+  },
+  {
+    "id": "to-vs-too-vs-two",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "TO",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "TOO / TWO",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Preposition",
+    "word1_def": "Direction or purpose",
+    "word1_example": "\"I go to school.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Adverb / Number",
+    "word2_def": "Also / The number 2",
+    "word2_example": "\"Me too! I have two cats.\"",
+    "word2_icon": "group",
+    "cards_header": "TO vs TOO vs TWO",
+    "word1_card_sub": "Direction / purpose",
+    "word1_card_lines": [
+      "Go to work",
+      "Want to eat"
+    ],
+    "word2_card_sub": "Also / The number 2",
+    "word2_card_lines": [
+      "I want some too",
+      "Two apples"
+    ],
+    "quiz_question": [
+      "I want ___ go ___!",
+      "said the child."
+    ],
+    "result_line1": "TO = direction / purpose",
+    "result_line2": "TOO = also / TWO = the number",
+    "promo_tagline": "To vs Too vs Two — Know the difference.",
+    "tts": [
+      "A2 English: to versus too versus two.",
+      "To shows direction or purpose. I go to school.",
+      "Too means also, and two is the number 2.",
+      "To is for direction. Too means also. Two is the number.",
+      "Quiz: I want blank go blank said the child.",
+      "Answer: to and too."
+    ]
+  },
+  {
+    "id": "then-vs-than",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "THEN",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "THAN",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adverb",
+    "word1_def": "Next in time or order",
+    "word1_example": "\"First eat, then go out.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Preposition / Conjunction",
+    "word2_def": "Used for comparisons",
+    "word2_example": "\"She is taller than me.\"",
+    "word2_icon": "group",
+    "cards_header": "THEN vs THAN",
+    "word1_card_sub": "Next, after that",
+    "word1_card_lines": [
+      "First this, then that",
+      "Time sequence"
+    ],
+    "word2_card_sub": "Comparison marker",
+    "word2_card_lines": [
+      "Bigger than",
+      "Better than"
+    ],
+    "quiz_question": [
+      "First we finish work,",
+      "___ we go home."
+    ],
+    "result_line1": "THEN = next in time",
+    "result_line2": "THAN = comparison",
+    "promo_tagline": "Then vs Than — Know the difference.",
+    "tts": [
+      "A2 English: then versus than.",
+      "Then means next in time or order. First eat, then go out.",
+      "Than is used for comparisons. She is taller than me.",
+      "Then is time. Than is comparison. Know the difference.",
+      "Quiz: First we finish work, then or than we go home?",
+      "Answer: then. Then means next, than is for comparisons."
+    ]
+  },
+  {
+    "id": "teach-vs-learn",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "TEACH",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "LEARN",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Give knowledge or instruction",
+    "word1_example": "\"She teaches math.\"",
+    "word1_icon": "teach",
+    "word2_pos": "Verb",
+    "word2_def": "Receive knowledge or skill",
+    "word2_example": "\"I want to learn Spanish.\"",
+    "word2_icon": "learn",
+    "cards_header": "TEACH vs LEARN",
+    "word1_card_sub": "Give information",
+    "word1_card_lines": [
+      "Teacher does this",
+      "Instruct someone"
+    ],
+    "word2_card_sub": "Receive information",
+    "word2_card_lines": [
+      "Student does this",
+      "Gain a skill"
+    ],
+    "quiz_question": [
+      "Mr. Jones ___ us English",
+      "every morning."
+    ],
+    "result_line1": "TEACH = give instruction",
+    "result_line2": "LEARN = receive knowledge",
+    "promo_tagline": "Teach vs Learn — Know the difference.",
+    "tts": [
+      "A2 English: teach versus learn.",
+      "Teach means give knowledge or instruction. She teaches math.",
+      "Learn means receive knowledge or skill. I want to learn Spanish.",
+      "Teach gives information. Learn receives it. Know the difference.",
+      "Quiz: Mister Jones blank us English every morning.",
+      "Answer: teaches. Teach gives, learn receives."
+    ]
+  },
+  {
+    "id": "borrow-vs-lend",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "BORROW",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "LEND",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Take something temporarily",
+    "word1_example": "\"Can I borrow your book?\"",
+    "word1_icon": "inbox",
+    "word2_pos": "Verb",
+    "word2_def": "Give something temporarily",
+    "word2_example": "\"I can lend you my car.\"",
+    "word2_icon": "exclude",
+    "cards_header": "BORROW vs LEND",
+    "word1_card_sub": "Take temporarily",
+    "word1_card_lines": [
+      "Receive from someone",
+      "Borrow a pen"
+    ],
+    "word2_card_sub": "Give temporarily",
+    "word2_card_lines": [
+      "Give to someone",
+      "Lend money"
+    ],
+    "quiz_question": [
+      "Can you ___ me your book",
+      "for the weekend?"
+    ],
+    "result_line1": "BORROW = take temporarily",
+    "result_line2": "LEND = give temporarily",
+    "promo_tagline": "Borrow vs Lend — Know the difference.",
+    "tts": [
+      "A2 English: borrow versus lend.",
+      "Borrow means to take something temporarily. Can I borrow your book?",
+      "Lend means to give something temporarily. I can lend you my car.",
+      "Borrow is take. Lend is give. Know the difference.",
+      "Quiz: Can you blank me your book for the weekend?",
+      "Answer: lend. Lend is give, borrow is take."
+    ]
+  },
+  {
+    "id": "weather-vs-whether",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "WEATHER",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "WHETHER",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Rain, sun, wind, temperature",
+    "word1_example": "\"The weather is nice today.\"",
+    "word1_icon": "inbox",
+    "word2_pos": "Conjunction",
+    "word2_def": "Expressing a choice or doubt",
+    "word2_example": "\"I don't know whether to go.\"",
+    "word2_icon": "exclude",
+    "cards_header": "WEATHER vs WHETHER",
+    "word1_card_sub": "Climate conditions",
+    "word1_card_lines": [
+      "It's sunny",
+      "Bad weather"
+    ],
+    "word2_card_sub": "Expressing choice",
+    "word2_card_lines": [
+      "Whether or not",
+      "I wonder whether"
+    ],
+    "quiz_question": [
+      "I don't know ___ to bring",
+      "an umbrella."
+    ],
+    "result_line1": "WEATHER = climate (noun)",
+    "result_line2": "WHETHER = choice (conjunction)",
+    "promo_tagline": "Weather vs Whether — Know the difference.",
+    "tts": [
+      "B1 English: weather versus whether.",
+      "Weather refers to rain, sun or temperature. The weather is nice.",
+      "Whether expresses a choice or doubt. I don't know whether to go.",
+      "Weather is climate. Whether is about choices. Know the difference.",
+      "Quiz: I don't know blank to bring an umbrella.",
+      "Answer: whether. Whether expresses doubt."
+    ]
+  },
+  {
+    "id": "advice-vs-advise",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ADVICE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ADVISE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "A suggestion or recommendation",
+    "word1_example": "\"Take my advice.\"",
+    "word1_icon": "inbox",
+    "word2_pos": "Verb",
+    "word2_def": "To recommend or suggest",
+    "word2_example": "\"I advise you to study.\"",
+    "word2_icon": "exclude",
+    "cards_header": "ADVICE vs ADVISE",
+    "word1_card_sub": "Suggestion (noun)",
+    "word1_card_lines": [
+      "Some good advice",
+      "Take advice"
+    ],
+    "word2_card_sub": "To recommend (verb)",
+    "word2_card_lines": [
+      "I advise caution",
+      "She advises us"
+    ],
+    "quiz_question": [
+      "Can you ___ me on which",
+      "course to take?"
+    ],
+    "result_line1": "ADVICE = suggestion (noun)",
+    "result_line2": "ADVISE = to recommend (verb)",
+    "promo_tagline": "Advice vs Advise — Know the difference.",
+    "tts": [
+      "B1 English: advice versus advise.",
+      "Advice is a noun meaning a suggestion. Take my advice.",
+      "Advise is a verb meaning to recommend. I advise you to study.",
+      "Advice is a thing. Advise is an action. Know the difference.",
+      "Quiz: Can you blank me on which course to take?",
+      "Answer: advise. Advise is the verb."
+    ]
+  },
+  {
+    "id": "practice-vs-practise",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "PRACTICE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "PRACTISE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Repeated exercise / profession",
+    "word1_example": "\"Practice makes perfect.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "To do repeatedly",
+    "word2_example": "\"I practise every day.\"",
+    "word2_icon": "arrow",
+    "cards_header": "PRACTICE vs PRACTISE",
+    "word1_card_sub": "Noun (thing)",
+    "word1_card_lines": [
+      "Football practice",
+      "Medical practice"
+    ],
+    "word2_card_sub": "Verb (action)",
+    "word2_card_lines": [
+      "Practise piano",
+      "Need to practise"
+    ],
+    "quiz_question": [
+      "You need more ___ before",
+      "the competition."
+    ],
+    "result_line1": "PRACTICE = noun (the thing)",
+    "result_line2": "PRACTISE = verb (the action)",
+    "promo_tagline": "Practice vs Practise — Know the difference.",
+    "tts": [
+      "B2 English: practice versus practise.",
+      "Practice is a noun. Practice makes perfect.",
+      "Practise is a verb. I practise every day.",
+      "Practice is the thing. Practise is the action.",
+      "Quiz: You need more blank before the competition.",
+      "Answer: practice. Practice is a noun here."
+    ]
+  },
+  {
+    "id": "licence-vs-license",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "LICENCE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "LICENSE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "A permit or certification",
+    "word1_example": "\"I have a driving licence.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "To give permission",
+    "word2_example": "\"The venue is licensed.\"",
+    "word2_icon": "exclude",
+    "cards_header": "LICENCE vs LICENSE",
+    "word1_card_sub": "Noun (the document)",
+    "word1_card_lines": [
+      "Driver's licence",
+      "TV licence"
+    ],
+    "word2_card_sub": "Verb (to permit)",
+    "word2_card_lines": [
+      "Licensed premises",
+      "License the software"
+    ],
+    "quiz_question": [
+      "He passed his driving ___",
+      "last week."
+    ],
+    "result_line1": "LICENCE = noun (the permit)",
+    "result_line2": "LICENSE = verb (to permit)",
+    "promo_tagline": "Licence vs License — Know the difference.",
+    "tts": [
+      "B2 English: licence versus license.",
+      "Licence is a noun meaning a permit. I have a driving licence.",
+      "License is a verb meaning to permit. The venue is licensed.",
+      "Licence is the document. License is the action.",
+      "Quiz: He passed his driving blank last week.",
+      "Answer: licence. It's a noun here."
+    ]
+  },
+  {
+    "id": "complement-vs-compliment",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "COMPLEMENT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "COMPLIMENT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun / Verb",
+    "word1_def": "Completes or goes well with",
+    "word1_example": "\"The wine complements the meal.\"",
+    "word1_icon": "group",
+    "word2_pos": "Noun / Verb",
+    "word2_def": "A praise or flattery",
+    "word2_example": "\"She gave me a nice compliment.\"",
+    "word2_icon": "inbox",
+    "cards_header": "COMPLEMENT vs COMPLIMENT",
+    "word1_card_sub": "Goes well with",
+    "word1_card_lines": [
+      "Complements each other",
+      "Full complement"
+    ],
+    "word2_card_sub": "Praise / flattery",
+    "word2_card_lines": [
+      "Nice compliment",
+      "Compliment someone"
+    ],
+    "quiz_question": [
+      "The colors ___ each other",
+      "perfectly."
+    ],
+    "result_line1": "COMPLEMENT = goes well with",
+    "result_line2": "COMPLIMENT = praise / flattery",
+    "promo_tagline": "Complement vs Compliment — Know the difference.",
+    "tts": [
+      "B2 English: complement versus compliment.",
+      "Complement means completes or goes well with. That wine complements the meal.",
+      "Compliment is praise. She gave me a nice compliment.",
+      "Complement is about matching. Compliment is about praising.",
+      "Quiz: The colors blank each other perfectly.",
+      "Answer: complement. They match each other."
+    ]
+  },
+  {
+    "id": "stationary-vs-stationery",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "STATIONARY",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "STATIONERY",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Not moving, fixed",
+    "word1_example": "\"The car remained stationary.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Noun",
+    "word2_def": "Writing materials",
+    "word2_example": "\"She bought stationery.\"",
+    "word2_icon": "inbox",
+    "cards_header": "STATIONARY vs STATIONERY",
+    "word1_card_sub": "Not moving",
+    "word1_card_lines": [
+      "Stationary car",
+      "Stay still"
+    ],
+    "word2_card_sub": "Writing supplies",
+    "word2_card_lines": [
+      "Pen and paper",
+      "Office stationery"
+    ],
+    "quiz_question": [
+      "The car was ___ at the",
+      "traffic lights."
+    ],
+    "result_line1": "STATIONARY = not moving",
+    "result_line2": "STATIONERY = writing materials",
+    "promo_tagline": "Stationary vs Stationery — Know the difference.",
+    "tts": [
+      "B2 English: stationary versus stationery.",
+      "Stationary means not moving. The car remained stationary.",
+      "Stationery means writing materials. She bought stationery.",
+      "Stationary is still. Stationery is paper and pens.",
+      "Quiz: The car was blank at the traffic lights.",
+      "Answer: stationary. It wasn't moving."
+    ]
+  },
+  {
+    "id": "principal-vs-principle",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "PRINCIPAL",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "PRINCIPLE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun / Adjective",
+    "word1_def": "Main person or most important",
+    "word1_example": "\"The school principal.\"",
+    "word1_icon": "group",
+    "word2_pos": "Noun",
+    "word2_def": "A fundamental rule or belief",
+    "word2_example": "\"Stick to your principles.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "PRINCIPAL vs PRINCIPLE",
+    "word1_card_sub": "Main / leader",
+    "word1_card_lines": [
+      "School principal",
+      "Principal reason"
+    ],
+    "word2_card_sub": "Rule / belief",
+    "word2_card_lines": [
+      "Moral principles",
+      "Scientific principle"
+    ],
+    "quiz_question": [
+      "The ___ reason for the",
+      "delay was the weather."
+    ],
+    "result_line1": "PRINCIPAL = main / most important",
+    "result_line2": "PRINCIPLE = a rule or belief",
+    "promo_tagline": "Principal vs Principle — Know the difference.",
+    "tts": [
+      "B2 English: principal versus principle.",
+      "Principal means main or the head of a school. The school principal spoke.",
+      "Principle is a fundamental rule or belief. Stick to your principles.",
+      "Principal is the main thing. Principle is the rule.",
+      "Quiz: The blank reason for the delay was the weather.",
+      "Answer: principal. It means the main reason."
+    ]
+  },
+  {
+    "id": "council-vs-counsel",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "COUNCIL",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "COUNSEL",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "An assembly or governing body",
+    "word1_example": "\"The city council met.\"",
+    "word1_icon": "group",
+    "word2_pos": "Noun / Verb",
+    "word2_def": "Advice or to advise",
+    "word2_example": "\"Seek legal counsel.\"",
+    "word2_icon": "inbox",
+    "cards_header": "COUNCIL vs COUNSEL",
+    "word1_card_sub": "Governing body",
+    "word1_card_lines": [
+      "City council",
+      "Council meeting"
+    ],
+    "word2_card_sub": "Advice / lawyer",
+    "word2_card_lines": [
+      "Legal counsel",
+      "Counsel someone"
+    ],
+    "quiz_question": [
+      "She was elected to the",
+      "city ___."
+    ],
+    "result_line1": "COUNCIL = governing body",
+    "result_line2": "COUNSEL = advice or lawyer",
+    "promo_tagline": "Council vs Counsel — Know the difference.",
+    "tts": [
+      "C1 English: council versus counsel.",
+      "Council is a governing body. The city council met yesterday.",
+      "Counsel means advice or a lawyer. Seek legal counsel.",
+      "Council is a group. Counsel is advice.",
+      "Quiz: She was elected to the city blank.",
+      "Answer: council. It's the governing body."
+    ]
+  },
+  {
+    "id": "emigrate-vs-immigrate",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "EMIGRATE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "IMMIGRATE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Leave your country to live elsewhere",
+    "word1_example": "\"They emigrated from Ireland.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Verb",
+    "word2_def": "Move to a new country",
+    "word2_example": "\"They immigrated to Canada.\"",
+    "word2_icon": "inbox",
+    "cards_header": "EMIGRATE vs IMMIGRATE",
+    "word1_card_sub": "Leave from",
+    "word1_card_lines": [
+      "Emigrate from",
+      "Exit your country"
+    ],
+    "word2_card_sub": "Move to",
+    "word2_card_lines": [
+      "Immigrate to",
+      "Enter new country"
+    ],
+    "quiz_question": [
+      "Many people ___ from Syria",
+      "to Europe in 2015."
+    ],
+    "result_line1": "EMIGRATE = leave from",
+    "result_line2": "IMMIGRATE = move to",
+    "promo_tagline": "Emigrate vs Immigrate — Know the difference.",
+    "tts": [
+      "C1 English: emigrate versus immigrate.",
+      "Emigrate means leave your country to live elsewhere. They emigrated from Ireland.",
+      "Immigrate means move to a new country. They immigrated to Canada.",
+      "Emigrate is leaving. Immigrate is arriving.",
+      "Quiz: Many people blank from Syria to Europe.",
+      "Answer: emigrated. They left Syria."
+    ]
+  },
+  {
+    "id": "discreet-vs-discrete",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "DISCREET",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "DISCRETE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Careful or subtle",
+    "word1_example": "\"He was very discreet.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Adjective",
+    "word2_def": "Separate or distinct",
+    "word2_example": "\"A series of discrete steps.\"",
+    "word2_icon": "exclude",
+    "cards_header": "DISCREET vs DISCRETE",
+    "word1_card_sub": "Subtle / careful",
+    "word1_card_lines": [
+      "Be discreet",
+      "Quiet and careful"
+    ],
+    "word2_card_sub": "Separate / distinct",
+    "word2_card_lines": [
+      "Discrete units",
+      "Separate parts"
+    ],
+    "quiz_question": [
+      "The information is divided",
+      "into several ___ sections."
+    ],
+    "result_line1": "DISCREET = careful, subtle",
+    "result_line2": "DISCRETE = separate, distinct",
+    "promo_tagline": "Discreet vs Discrete — Know the difference.",
+    "tts": [
+      "C1 English: discreet versus discrete.",
+      "Discreet means careful or subtle. He was very discreet about the secret.",
+      "Discrete means separate or distinct. The plan has discrete steps.",
+      "Discreet is about being quiet. Discrete is about being separate.",
+      "Quiz: The information is divided into several blank sections.",
+      "Answer: discrete. They are separate sections."
+    ]
+  },
+  {
+    "id": "elicit-vs-illicit",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ELICIT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ILLICIT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To draw out or obtain",
+    "word1_example": "\"The joke elicited laughter.\"",
+    "word1_icon": "inbox",
+    "word2_pos": "Adjective",
+    "word2_def": "Forbidden or illegal",
+    "word2_example": "\"Illicit activities.\"",
+    "word2_icon": "exclude",
+    "cards_header": "ELICIT vs ILLICIT",
+    "word1_card_sub": "Draw out / obtain",
+    "word1_card_lines": [
+      "Elicit a response",
+      "Elicit information"
+    ],
+    "word2_card_sub": "Illegal / forbidden",
+    "word2_card_lines": [
+      "Illicit drugs",
+      "Illicit affair"
+    ],
+    "quiz_question": [
+      "The survey was designed to",
+      "___ honest feedback."
+    ],
+    "result_line1": "ELICIT = to draw out",
+    "result_line2": "ILLICIT = illegal, forbidden",
+    "promo_tagline": "Elicit vs Illicit — Know the difference.",
+    "tts": [
+      "C1 English: elicit versus illicit.",
+      "Elicit is a verb meaning to draw out. The joke elicited laughter.",
+      "Illicit is an adjective meaning illegal. Illicit activities are forbidden.",
+      "Elicit is to get something. Illicit is against the rules.",
+      "Quiz: The survey was designed to blank honest feedback.",
+      "Answer: elicit. It means to obtain."
+    ]
+  },
+  {
+    "id": "disinterested-vs-uninterested",
+    "level": "LEVEL C2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "DISINTERESTED",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "UNINTERESTED",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Impartial, neutral",
+    "word1_example": "\"A judge must be disinterested.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Adjective",
+    "word2_def": "Not interested, bored",
+    "word2_example": "\"He seemed uninterested in the lecture.\"",
+    "word2_icon": "exclude",
+    "cards_header": "DISINTERESTED vs UNINTERESTED",
+    "word1_card_sub": "Impartial / neutral",
+    "word1_card_lines": [
+      "No bias",
+      "Fair judgement"
+    ],
+    "word2_card_sub": "Not interested",
+    "word2_card_lines": [
+      "Bored",
+      "No enthusiasm"
+    ],
+    "quiz_question": [
+      "The referee must remain ___",
+      "in the game's outcome."
+    ],
+    "result_line1": "DISINTERESTED = impartial",
+    "result_line2": "UNINTERESTED = not interested",
+    "promo_tagline": "Disinterested vs Uninterested — Know the difference.",
+    "tts": [
+      "C2 English: disinterested versus uninterested.",
+      "Disinterested means impartial or neutral. A judge must be disinterested.",
+      "Uninterested means not interested or bored. He seemed uninterested in the lecture.",
+      "Disinterested is about fairness. Uninterested is about boredom.",
+      "Quiz: The referee must remain blank in the game's outcome.",
+      "Answer: disinterested. It means impartial."
+    ]
+  },
+  {
+    "id": "flaunt-vs-flout",
+    "level": "LEVEL C2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "FLAUNT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "FLOUT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Show off deliberately",
+    "word1_example": "\"She flaunted her new car.\"",
+    "word1_icon": "group",
+    "word2_pos": "Verb",
+    "word2_def": "Openly disregard a rule",
+    "word2_example": "\"He flouted the speed limit.\"",
+    "word2_icon": "exclude",
+    "cards_header": "FLAUNT vs FLOUT",
+    "word1_card_sub": "Show off",
+    "word1_card_lines": [
+      "Display proudly",
+      "Show off wealth"
+    ],
+    "word2_card_sub": "Disregard rules",
+    "word2_card_lines": [
+      "Break openly",
+      "Ignore the law"
+    ],
+    "quiz_question": [
+      "Drivers who ___ the rules",
+      "face heavy fines."
+    ],
+    "result_line1": "FLAUNT = show off",
+    "result_line2": "FLOUT = break rules openly",
+    "promo_tagline": "Flaunt vs Flout — Know the difference.",
+    "tts": [
+      "C2 English: flaunt versus flout.",
+      "Flaunt means to show off deliberately. She flaunted her new car.",
+      "Flout means to openly disregard a rule. He flouted the speed limit.",
+      "Flaunt is showing off. Flout is breaking rules.",
+      "Quiz: Drivers who blank the rules face heavy fines.",
+      "Answer: flout. They disregard the rules."
+    ]
+  },
+  {
+    "id": "fortuitous-vs-fortunate",
+    "level": "LEVEL C2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "FORTUITOUS",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "FORTUNATE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Happening by chance",
+    "word1_example": "\"A fortuitous meeting.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Adjective",
+    "word2_def": "Lucky, favourable",
+    "word2_example": "\"We were fortunate to survive.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "FORTUITOUS vs FORTUNATE",
+    "word1_card_sub": "By chance",
+    "word1_card_lines": [
+      "Accidental",
+      "Not planned"
+    ],
+    "word2_card_sub": "Lucky",
+    "word2_card_lines": [
+      "Good fortune",
+      "Favourable outcome"
+    ],
+    "quiz_question": [
+      "Their meeting was ___ —",
+      "neither of them planned it."
+    ],
+    "result_line1": "FORTUITOUS = by chance",
+    "result_line2": "FORTUNATE = lucky",
+    "promo_tagline": "Fortuitous vs Fortunate — Know the difference.",
+    "tts": [
+      "C2 English: fortuitous versus fortunate.",
+      "Fortuitous means happening by chance. It was a fortuitous meeting.",
+      "Fortunate means lucky. We were fortunate to survive.",
+      "Fortuitous is about chance. Fortunate is about luck.",
+      "Quiz: Their meeting was blank, neither planned it.",
+      "Answer: fortuitous. It happened by chance."
+    ]
+  },
+  {
+    "id": "appraise-vs-apprise",
+    "level": "LEVEL C2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "APPRAISE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "APPRISE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Assess the value of",
+    "word1_example": "\"They appraised the house.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "Inform or notify",
+    "word2_example": "\"Apprise me of any changes.\"",
+    "word2_icon": "inbox",
+    "cards_header": "APPRAISE vs APPRISE",
+    "word1_card_sub": "Assess value",
+    "word1_card_lines": [
+      "Property appraisal",
+      "Evaluate worth"
+    ],
+    "word2_card_sub": "Inform",
+    "word2_card_lines": [
+      "Keep me apprised",
+      "Notify someone"
+    ],
+    "quiz_question": [
+      "The bank will ___ the",
+      "property before the loan."
+    ],
+    "result_line1": "APPRAISE = assess value",
+    "result_line2": "APPRISE = inform",
+    "promo_tagline": "Appraise vs Apprise — Know the difference.",
+    "tts": [
+      "C2 English: appraise versus apprise.",
+      "Appraise means to assess the value of something. They appraised the house.",
+      "Apprise means to inform. Please apprise me of any changes.",
+      "Appraise is about value. Apprise is about information.",
+      "Quiz: The bank will blank the property before the loan.",
+      "Answer: appraise. They assess its value."
+    ]
+  },
+  {
+    "id": "tortuous-vs-torturous",
+    "level": "LEVEL C2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "TORTUOUS",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "TORTUROUS",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Winding or complex",
+    "word1_example": "\"A tortuous mountain road.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Adjective",
+    "word2_def": "Extremely painful",
+    "word2_example": "\"A torturous recovery.\"",
+    "word2_icon": "exclude",
+    "cards_header": "TORTUOUS vs TORTUROUS",
+    "word1_card_sub": "Winding / complex",
+    "word1_card_lines": [
+      "Full of bends",
+      "Convoluted path"
+    ],
+    "word2_card_sub": "Extremely painful",
+    "word2_card_lines": [
+      "Agonizing",
+      "Severe suffering"
+    ],
+    "quiz_question": [
+      "The route was ___ and",
+      "full of sharp bends."
+    ],
+    "result_line1": "TORTUOUS = winding, complex",
+    "result_line2": "TORTUROUS = extremely painful",
+    "promo_tagline": "Tortuous vs Torturous — Know the difference.",
+    "tts": [
+      "C2 English: tortuous versus torturous.",
+      "Tortuous means winding or complex. It was a tortuous mountain road.",
+      "Torturous means extremely painful. The recovery was torturous.",
+      "Tortuous is about curves. Torturous is about pain.",
+      "Quiz: The route was blank and full of sharp bends.",
+      "Answer: tortuous. It means winding."
+    ]
+  },
+  {
+    "id": "ensure-vs-insure",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ENSURE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "INSURE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Make certain of something",
+    "word1_example": "\"Ensure the door is locked.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "Protect with insurance",
+    "word2_example": "\"You should insure your car.\"",
+    "word2_icon": "inbox",
+    "cards_header": "ENSURE vs INSURE",
+    "word1_card_sub": "Make certain",
+    "word1_card_lines": [
+      "Ensure safety",
+      "Check that it happens"
+    ],
+    "word2_card_sub": "Financial protection",
+    "word2_card_lines": [
+      "Insure property",
+      "Insurance policy"
+    ],
+    "quiz_question": [
+      "Please ___ that everyone",
+      "has a seat before we leave."
+    ],
+    "result_line1": "ENSURE = make certain",
+    "result_line2": "INSURE = protect financially",
+    "promo_tagline": "Ensure vs Insure — Know the difference.",
+    "tts": [
+      "B2 English: ensure versus insure.",
+      "Ensure means to make certain. Please ensure the door is locked.",
+      "Insure means to protect with insurance. You should insure your car.",
+      "Ensure is about certainty. Insure is about protection.",
+      "Quiz: Please blank that everyone has a seat before we leave.",
+      "Answer: ensure. It means make certain."
+    ]
+  },
+  {
+    "id": "economic-vs-economical",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ECONOMIC",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ECONOMICAL",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Related to the economy",
+    "word1_example": "\"Economic growth is slow.\"",
+    "word1_icon": "group",
+    "word2_pos": "Adjective",
+    "word2_def": "Cheap, efficient with money",
+    "word2_example": "\"This car is very economical.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "ECONOMIC vs ECONOMICAL",
+    "word1_card_sub": "About the economy",
+    "word1_card_lines": [
+      "Economic policy",
+      "Economic crisis"
+    ],
+    "word2_card_sub": "Cost-efficient",
+    "word2_card_lines": [
+      "Economical car",
+      "Saves money"
+    ],
+    "quiz_question": [
+      "The government announced new",
+      "___ reforms this week."
+    ],
+    "result_line1": "ECONOMIC = about the economy",
+    "result_line2": "ECONOMICAL = cheap, efficient",
+    "promo_tagline": "Economic vs Economical — Know the difference.",
+    "tts": [
+      "B2 English: economic versus economical.",
+      "Economic relates to the economy. Economic growth is slow.",
+      "Economical means cheap or efficient. This car is very economical.",
+      "Economic is about the system. Economical is about saving money.",
+      "Quiz: The government announced new blank reforms.",
+      "Answer: economic. They relate to the economy."
+    ]
+  },
+  {
+    "id": "win-vs-beat",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "WIN",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "BEAT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Finish first in a game",
+    "word1_example": "\"We won the match.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "Defeat another player",
+    "word2_example": "\"They beat us 3 to 1.\"",
+    "word2_icon": "exclude",
+    "cards_header": "WIN vs BEAT",
+    "word1_card_sub": "Win a game/trophy",
+    "word1_card_lines": [
+      "Win the match",
+      "Win a prize"
+    ],
+    "word2_card_sub": "Beat an opponent",
+    "word2_card_lines": [
+      "Beat the team",
+      "Beat him at chess"
+    ],
+    "quiz_question": [
+      "Our team ___ the final",
+      "last night!"
+    ],
+    "result_line1": "WIN = finish first",
+    "result_line2": "BEAT = defeat an opponent",
+    "promo_tagline": "Win vs Beat — Know the difference.",
+    "tts": [
+      "A2 English: win versus beat.",
+      "Win means finish first. We won the match.",
+      "Beat means defeat an opponent. They beat us three to one.",
+      "You win a game. You beat a team.",
+      "Quiz: Our team blank the final last night.",
+      "Answer: won. They finished first."
+    ]
+  },
+  {
+    "id": "come-vs-go",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "COME",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "GO",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Move toward the speaker",
+    "word1_example": "\"Come here, please.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Verb",
+    "word2_def": "Move away from speaker",
+    "word2_example": "\"I go to work by bus.\"",
+    "word2_icon": "group",
+    "cards_header": "COME vs GO",
+    "word1_card_sub": "Move toward",
+    "word1_card_lines": [
+      "Come to my house",
+      "Come here"
+    ],
+    "word2_card_sub": "Move away",
+    "word2_card_lines": [
+      "Go to work",
+      "Go home"
+    ],
+    "quiz_question": [
+      "Are you coming to the party",
+      "or ___ home early?"
+    ],
+    "result_line1": "COME = toward the speaker",
+    "result_line2": "GO = away from speaker",
+    "promo_tagline": "Come vs Go — Know the difference.",
+    "tts": [
+      "A2 English: come versus go.",
+      "Come means move toward the speaker. Come here please.",
+      "Go means move away from the speaker. I go to work by bus.",
+      "Come is toward me. Go is away from me.",
+      "Quiz: Are you coming to the party or blank home early?",
+      "Answer: going. It means moving away."
+    ]
+  },
+  {
+    "id": "lie-vs-lay",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "LIE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "LAY",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Be in a flat position",
+    "word1_example": "\"I lie on the sofa.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "Put something down flat",
+    "word2_example": "\"Lay the book on the table.\"",
+    "word2_icon": "inbox",
+    "cards_header": "LIE vs LAY",
+    "word1_card_sub": "Recline (no object)",
+    "word1_card_lines": [
+      "Lie down",
+      "Lie on the bed"
+    ],
+    "word2_card_sub": "Put down (has object)",
+    "word2_card_lines": [
+      "Lay the table",
+      "Lay bricks"
+    ],
+    "quiz_question": [
+      "Please ___ the papers",
+      "on my desk."
+    ],
+    "result_line1": "LIE = recline (no object)",
+    "result_line2": "LAY = put down (has object)",
+    "promo_tagline": "Lie vs Lay — Know the difference.",
+    "tts": [
+      "B1 English: lie versus lay.",
+      "Lie means be in a flat position. I lie on the sofa.",
+      "Lay means put something down. Lay the book on the table.",
+      "You lie down. You lay something down.",
+      "Quiz: Please blank the papers on my desk.",
+      "Answer: lay. There is an object."
+    ]
+  },
+  {
+    "id": "expect-vs-wait",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "EXPECT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "WAIT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Believe something will happen",
+    "word1_example": "\"I expect a call later.\"",
+    "word1_icon": "inbox",
+    "word2_pos": "Verb",
+    "word2_def": "Pass time until something",
+    "word2_example": "\"Wait for the bus.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "EXPECT vs WAIT",
+    "word1_card_sub": "Believe it will happen",
+    "word1_card_lines": [
+      "Expect a result",
+      "Expect guests"
+    ],
+    "word2_card_sub": "Pass time until",
+    "word2_card_lines": [
+      "Wait for a bus",
+      "Wait your turn"
+    ],
+    "quiz_question": [
+      "I ___ him to arrive",
+      "before six."
+    ],
+    "result_line1": "EXPECT = believe will happen",
+    "result_line2": "WAIT = pass time until",
+    "promo_tagline": "Expect vs Wait — Know the difference.",
+    "tts": [
+      "B1 English: expect versus wait.",
+      "Expect means believe something will happen. I expect a call.",
+      "Wait means pass time until something. Wait for the bus.",
+      "Expect is about belief. Wait is about time.",
+      "Quiz: I blank him to arrive before six.",
+      "Answer: expect. It is a prediction."
+    ]
+  },
+  {
+    "id": "historic-vs-historical",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "HISTORIC",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "HISTORICAL",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Famous or important in history",
+    "word1_example": "\"A historic victory.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Adjective",
+    "word2_def": "Related to history",
+    "word2_example": "\"Historical documents.\"",
+    "word2_icon": "inbox",
+    "cards_header": "HISTORIC vs HISTORICAL",
+    "word1_card_sub": "Famous / important",
+    "word1_card_lines": [
+      "Historic moment",
+      "Historic building"
+    ],
+    "word2_card_sub": "About the past",
+    "word2_card_lines": [
+      "Historical records",
+      "Historical novel"
+    ],
+    "quiz_question": [
+      "The treaty was a ___ event",
+      "for both nations."
+    ],
+    "result_line1": "HISTORIC = important in history",
+    "result_line2": "HISTORICAL = related to history",
+    "promo_tagline": "Historic vs Historical — Know the difference.",
+    "tts": [
+      "C1 English: historic versus historical.",
+      "Historic means famous or important in history. It was a historic victory.",
+      "Historical means related to history. These are historical documents.",
+      "Historic is important. Historical is about the past.",
+      "Quiz: The treaty was a blank event for both nations.",
+      "Answer: historic. It was important."
+    ]
+  },
+  {
+    "id": "defective-vs-deficient",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "DEFECTIVE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "DEFICIENT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Faulty, not working properly",
+    "word1_example": "\"A defective laptop.\"",
+    "word1_icon": "exclude",
+    "word2_pos": "Adjective",
+    "word2_def": "Lacking something needed",
+    "word2_example": "\"Deficient in vitamin D.\"",
+    "word2_icon": "inbox",
+    "cards_header": "DEFECTIVE vs DEFICIENT",
+    "word1_card_sub": "Faulty / broken",
+    "word1_card_lines": [
+      "Defective product",
+      "Defective wiring"
+    ],
+    "word2_card_sub": "Lacking / insufficient",
+    "word2_card_lines": [
+      "Deficient diet",
+      "Deficient in iron"
+    ],
+    "quiz_question": [
+      "The product was recalled",
+      "because it was ___."
+    ],
+    "result_line1": "DEFECTIVE = faulty, broken",
+    "result_line2": "DEFICIENT = lacking, insufficient",
+    "promo_tagline": "Defective vs Deficient — Know the difference.",
+    "tts": [
+      "C1 English: defective versus deficient.",
+      "Defective means faulty. The laptop was defective.",
+      "Deficient means lacking something. She is deficient in vitamin D.",
+      "Defective is about being broken. Deficient is about missing.",
+      "Quiz: The product was recalled because it was blank.",
+      "Answer: defective. It was faulty."
+    ]
+  },
+  {
+    "id": "alternate-vs-alternative",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ALTERNATE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ALTERNATIVE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective / Verb",
+    "word1_def": "Every other one / take turns",
+    "word1_example": "\"On alternate days.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Noun / Adjective",
+    "word2_def": "A different option",
+    "word2_example": "\"An alternative route.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "ALTERNATE vs ALTERNATIVE",
+    "word1_card_sub": "Every other / take turns",
+    "word1_card_lines": [
+      "Alternate weeks",
+      "Alternate routes?"
+    ],
+    "word2_card_sub": "Different option",
+    "word2_card_lines": [
+      "Alternative plan",
+      "No alternative"
+    ],
+    "quiz_question": [
+      "We take the highway; the",
+      "___ route is too long."
+    ],
+    "result_line1": "ALTERNATE = every other",
+    "result_line2": "ALTERNATIVE = different option",
+    "promo_tagline": "Alternate vs Alternative — Know the difference.",
+    "tts": [
+      "C1 English: alternate versus alternative.",
+      "Alternate means every other one. We meet on alternate days.",
+      "Alternative means a different option. Take an alternative route.",
+      "Alternate is about turns. Alternative is about choices.",
+      "Quiz: We take the highway, the blank route is too long.",
+      "Answer: alternative. It is another option."
+    ]
+  },
+  {
+    "id": "continuous-vs-continual",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "CONTINUOUS",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "CONTINUAL",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Without interruption",
+    "word1_example": "\"Continuous rain all day.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Adjective",
+    "word2_def": "Repeatedly, with breaks",
+    "word2_example": "\"Continual interruptions.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "CONTINUOUS vs CONTINUAL",
+    "word1_card_sub": "Without stopping",
+    "word1_card_lines": [
+      "Continuous line",
+      "Continuous flow"
+    ],
+    "word2_card_sub": "Repeated, with breaks",
+    "word2_card_lines": [
+      "Continual complaints",
+      "Continual updates"
+    ],
+    "quiz_question": [
+      "The machine ran ___ for",
+      "twenty-four hours."
+    ],
+    "result_line1": "CONTINUOUS = without stopping",
+    "result_line2": "CONTINUAL = repeated, with breaks",
+    "promo_tagline": "Continuous vs Continual — Know the difference.",
+    "tts": [
+      "C1 English: continuous versus continual.",
+      "Continuous means without interruption. It rained continuously all day.",
+      "Continual means repeated with breaks. There were continual interruptions.",
+      "Continuous never stops. Continual happens again and again.",
+      "Quiz: The machine ran blank for twenty-four hours.",
+      "Answer: continuously. It did not stop."
+    ]
+  },
+  {
+    "id": "mitigate-vs-militate",
+    "level": "LEVEL C2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "MITIGATE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "MILITATE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Make less severe",
+    "word1_example": "\"Mitigate the risks.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "Be a strong factor against",
+    "word2_example": "\"The facts militate against it.\"",
+    "word2_icon": "exclude",
+    "cards_header": "MITIGATE vs MILITATE",
+    "word1_card_sub": "Reduce severity",
+    "word1_card_lines": [
+      "Mitigate damage",
+      "Mitigate risk"
+    ],
+    "word2_card_sub": "Work against",
+    "word2_card_lines": [
+      "Militate against",
+      "Evidence militates"
+    ],
+    "quiz_question": [
+      "New safety rules will ___",
+      "the risk of accidents."
+    ],
+    "result_line1": "MITIGATE = make less severe",
+    "result_line2": "MILITATE = work against",
+    "promo_tagline": "Mitigate vs Militate — Know the difference.",
+    "tts": [
+      "C2 English: mitigate versus militate.",
+      "Mitigate means make less severe. New rules mitigate the risk.",
+      "Militate means be a strong factor against. The facts militate against it.",
+      "Mitigate reduces harm. Militate works against.",
+      "Quiz: New safety rules will blank the risk of accidents.",
+      "Answer: mitigate. They reduce the risk."
+    ]
+  },
+  {
+    "id": "deprecate-vs-depreciate",
+    "level": "LEVEL C2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "DEPRECATE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "DEPRECIATE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "Disapprove of / mark obsolete",
+    "word1_example": "\"The feature is deprecated.\"",
+    "word1_icon": "exclude",
+    "word2_pos": "Verb",
+    "word2_def": "Lose value over time",
+    "word2_example": "\"Cars depreciate quickly.\"",
+    "word2_icon": "arrow",
+    "cards_header": "DEPRECATE vs DEPRECIATE",
+    "word1_card_sub": "Disapprove / obsolete",
+    "word1_card_lines": [
+      "Deprecated API",
+      "Self-deprecating"
+    ],
+    "word2_card_sub": "Lose value",
+    "word2_card_lines": [
+      "Depreciating asset",
+      "Currency depreciates"
+    ],
+    "quiz_question": [
+      "Cars ___ quickly, losing",
+      "value within years."
+    ],
+    "result_line1": "DEPRECATE = disapprove / obsolete",
+    "result_line2": "DEPRECIATE = lose value",
+    "promo_tagline": "Deprecate vs Depreciate — Know the difference.",
+    "tts": [
+      "C2 English: deprecate versus depreciate.",
+      "Deprecate means disapprove or mark as obsolete. The feature is deprecated.",
+      "Depreciate means lose value. Cars depreciate quickly.",
+      "Deprecate is about disapproval. Depreciate is about value.",
+      "Quiz: Cars blank quickly, losing value within years.",
+      "Answer: depreciate. They lose value."
+    ]
+  },
+  {
+    "id": "perspicacious-vs-perspicuous",
+    "level": "LEVEL C2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "PERSPICACIOUS",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "PERSPICUOUS",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Shrewd, keen insight",
+    "word1_example": "\"A perspicacious analyst.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Adjective",
+    "word2_def": "Clear, easy to understand",
+    "word2_example": "\"Perspicuous instructions.\"",
+    "word2_icon": "inbox",
+    "cards_header": "PERSPICACIOUS vs PERSPICUOUS",
+    "word1_card_sub": "Keen insight",
+    "word1_card_lines": [
+      "Sharp judgement",
+      "Insightful mind"
+    ],
+    "word2_card_sub": "Clear expression",
+    "word2_card_lines": [
+      "Clear writing",
+      "Easy to grasp"
+    ],
+    "quiz_question": [
+      "Her ___ analysis revealed",
+      "the hidden problem."
+    ],
+    "result_line1": "PERSPICACIOUS = shrewd insight",
+    "result_line2": "PERSPICUOUS = clear, lucid",
+    "promo_tagline": "Perspicacious vs Perspicuous — Know the difference.",
+    "tts": [
+      "C2 English: perspicacious versus perspicuous.",
+      "Perspicacious means shrewd with keen insight. She is a perspicacious analyst.",
+      "Perspicuous means clear and easy to understand. The instructions were perspicuous.",
+      "Perspicacious is about insight. Perspicuous is about clarity.",
+      "Quiz: Her blank analysis revealed the hidden problem.",
+      "Answer: perspicacious. It shows keen insight."
+    ]
+  },
+  {
+    "id": "prophecy-vs-prophecy2",
+    "level": "LEVEL C2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "PROPHECY",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "PROPHESY",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "A prediction of the future",
+    "word1_example": "\"The prophecy came true.\"",
+    "word1_icon": "inbox",
+    "word2_pos": "Verb",
+    "word2_def": "To predict the future",
+    "word2_example": "\"They prophesied a war.\"",
+    "word2_icon": "arrow",
+    "cards_header": "PROPHECY vs PROPHESY",
+    "word1_card_sub": "Prediction (noun)",
+    "word1_card_lines": [
+      "An ancient prophecy",
+      "The prophecy was true"
+    ],
+    "word2_card_sub": "To predict (verb)",
+    "word2_card_lines": [
+      "Prophesy events",
+      "Prophesy the future"
+    ],
+    "quiz_question": [
+      "The old ___ said the city",
+      "would fall."
+    ],
+    "result_line1": "PROPHECY = prediction (noun)",
+    "result_line2": "PROPHESY = to predict (verb)",
+    "promo_tagline": "Prophecy vs Prophesy — Know the difference.",
+    "tts": [
+      "C2 English: prophecy versus prophesy.",
+      "Prophecy is a noun meaning a prediction. The prophecy came true.",
+      "Prophesy is a verb meaning to predict. They prophesied a war.",
+      "Prophecy is the thing. Prophesy is the action.",
+      "Quiz: The old blank said the city would fall.",
+      "Answer: prophecy. It is a prediction."
+    ]
+  },
+  {
+    "id": "lay-vs-lie",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "LAY",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "LIE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb (transitive)",
+    "word1_def": "Put something down",
+    "word1_example": "\"Lay the book on the table.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Verb (intransitive)",
+    "word2_def": "Recline; rest",
+    "word2_example": "\"I need to lie down.\"",
+    "word2_icon": "learn",
+    "cards_header": "LAY vs LIE",
+    "word1_card_sub": "Place something",
+    "word1_card_lines": [
+      "Put down",
+      "Needs an object"
+    ],
+    "word2_card_sub": "Recline/rest",
+    "word2_card_lines": [
+      "No object",
+      "You do it yourself"
+    ],
+    "quiz_question": [
+      "After work, I need to ___",
+      "down for a while."
+    ],
+    "quiz_prompt": "Which one fits?",
+    "result_line1": "LAY = put something down",
+    "result_line2": "LIE = recline by yourself",
+    "promo_link": "vibte.com",
+    "promo_tagline": "Lay vs Lie — Know the difference.",
+    "tts": [
+      "B1 English: lay versus lie.",
+      "Lay means put something down. He lays the book on the table.",
+      "Lie means recline or rest. I need to lie down.",
+      "Lay puts an object down. Lie means rest. Know the difference.",
+      "Quiz: after work I need to blank down for a while.",
+      "Answer: lie. Lie means recline. Lay means put down."
+    ],
+    "episode_id_slug": "lay-vs-lie",
+    "word_pair": [
+      "lay",
+      "lie"
+    ]
+  },
+  {
+    "id": "accept-vs-except2",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ACCEPT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "EXCEPT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To receive willingly",
+    "word1_example": "\"Please accept my apology.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Preposition",
+    "word2_def": "Excluding or but",
+    "word2_example": "\"Everyone went except me.\"",
+    "word2_icon": "exclude",
+    "cards_header": "ACCEPT vs EXCEPT",
+    "word1_card_sub": "To receive",
+    "word1_card_lines": [
+      "Accept a gift",
+      "Accept an apology"
+    ],
+    "word2_card_sub": "Excluding",
+    "word2_card_lines": [
+      "Everyone except you",
+      "Nothing except this"
+    ],
+    "quiz_question": [
+      "I will ___ your offer,",
+      "but everyone ___ John."
+    ],
+    "result_line1": "ACCEPT = receive willingly",
+    "result_line2": "EXCEPT = excluding",
+    "promo_tagline": "Accept vs Except — Know the difference.",
+    "tts": [
+      "B1 English: accept versus except.",
+      "Accept means to receive willingly. Please accept my apology.",
+      "Except means excluding. Everyone went except me.",
+      "Accept is receiving. Except is leaving out. Know the difference.",
+      "Quiz: I will blank your offer, but everyone blank John.",
+      "Answer: accept and except. Accept means receive, except means excluding."
+    ]
+  },
+  {
+    "id": "lose-vs-loose",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "LOSE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "LOOSE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To misplace or fail to win",
+    "word1_example": "\"Don't lose your keys.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Adjective",
+    "word2_def": "Not tight or not secured",
+    "word2_example": "\"This shirt is too loose.\"",
+    "word2_icon": "group",
+    "cards_header": "LOSE vs LOOSE",
+    "word1_card_sub": "Verb — misplace",
+    "word1_card_lines": [
+      "Lose your keys",
+      "Lose a game"
+    ],
+    "word2_card_sub": "Adjective — not tight",
+    "word2_card_lines": [
+      "Loose clothing",
+      "Loose screws"
+    ],
+    "quiz_question": [
+      "Be careful not to ___",
+      "the loose button."
+    ],
+    "result_line1": "LOSE = verb, to misplace",
+    "result_line2": "LOOSE = adjective, not tight",
+    "promo_tagline": "Lose vs Loose — Know the difference.",
+    "tts": [
+      "A2 English: lose versus loose.",
+      "Lose is a verb meaning to misplace. Don't lose your keys.",
+      "Loose is an adjective meaning not tight. This shirt is too loose.",
+      "Lose is missing something. Loose is something slack. Know the difference.",
+      "Quiz: Be careful not to blank the loose button.",
+      "Answer: lose. Lose means to misplace, loose means not tight."
+    ]
+  },
+  {
+    "id": "desert-vs-dessert",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "DESERT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "DESSERT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun / Verb",
+    "word1_def": "Dry wasteland / to abandon",
+    "word1_example": "\"The Sahara is a vast desert.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Noun",
+    "word2_def": "Sweet course after a meal",
+    "word2_example": "\"I want chocolate for dessert.\"",
+    "word2_icon": "group",
+    "cards_header": "DESERT vs DESSERT",
+    "word1_card_sub": "Dry place / abandon",
+    "word1_card_lines": [
+      "Sahara desert",
+      "Desert your post"
+    ],
+    "word2_card_sub": "Sweet treat",
+    "word2_card_lines": [
+      "Chocolate dessert",
+      "Dessert menu"
+    ],
+    "quiz_question": [
+      "After dinner, let's have",
+      "a sweet ___.  (2 s's)"
+    ],
+    "result_line1": "DESERT = dry place",
+    "result_line2": "DESSERT = sweet treat (2 s's)",
+    "promo_tagline": "Desert vs Dessert — Know the difference.",
+    "tts": [
+      "A2 English: desert versus dessert.",
+      "Desert is a dry wasteland or to abandon. The Sahara is a vast desert.",
+      "Dessert is a sweet treat after a meal. I want chocolate for dessert.",
+      "Desert has one S and means dry. Dessert has two S's and means sweet. Know the difference.",
+      "Quiz: After dinner, let's have a sweet blank.",
+      "Answer: dessert. The sweet course has two S's."
+    ]
+  },
+  {
+    "id": "farther-vs-further",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "FARTHER",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "FURTHER",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adverb",
+    "word1_def": "Physical distance",
+    "word1_example": "\"We walked farther today.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Adverb",
+    "word2_def": "Metaphorical extension",
+    "word2_example": "\"I will look further into it.\"",
+    "word2_icon": "group",
+    "cards_header": "FARTHER vs FURTHER",
+    "word1_card_sub": "Physical distance",
+    "word1_card_lines": [
+      "Farther along the road",
+      "Walked farther"
+    ],
+    "word2_card_sub": "Figurative extent",
+    "word2_card_lines": [
+      "Further discussion",
+      "Take it further"
+    ],
+    "quiz_question": [
+      "We walked ___ today,",
+      "and we will discuss it ___."
+    ],
+    "result_line1": "FARTHER = physical distance",
+    "result_line2": "FURTHER = figurative extent",
+    "promo_tagline": "Farther vs Further — Know the difference.",
+    "tts": [
+      "B2 English: farther versus further.",
+      "Farther refers to physical distance. We walked farther today.",
+      "Further refers to figurative extent. I will look further into it.",
+      "Farther is measurable distance. Further is degree or time. Know the difference.",
+      "Quiz: We walked blank today, and we will discuss it blank.",
+      "Answer: farther and further. Farther is distance, further is figurative."
+    ]
+  },
+  {
+    "id": "imply-vs-infer",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "IMPLY",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "INFER",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To suggest without stating",
+    "word1_example": "\"You imply I am wrong.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Verb",
+    "word2_def": "To deduce from evidence",
+    "word2_example": "\"I infer you are upset.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "IMPLY vs INFER",
+    "word1_card_sub": "Sender suggests",
+    "word1_card_lines": [
+      "His tone implies anger",
+      "Don't imply it"
+    ],
+    "word2_card_sub": "Receiver concludes",
+    "word2_card_lines": [
+      "I infer from your face",
+      "Infer the cause"
+    ],
+    "quiz_question": [
+      "You ___ that I lied, but",
+      "I ___ nothing from it."
+    ],
+    "result_line1": "IMPLY = speaker suggests",
+    "result_line2": "INFER = listener deduces",
+    "promo_tagline": "Imply vs Infer — Know the difference.",
+    "tts": [
+      "C1 English: imply versus infer.",
+      "Imply means to suggest without stating. You imply I am wrong.",
+      "Infer means to deduce from evidence. I infer you are upset.",
+      "Imply is what the speaker does. Infer is what the listener does. Know the difference.",
+      "Quiz: You blank that I lied, but I blank nothing from it.",
+      "Answer: imply and infer. Imply is the speaker, infer is the listener."
+    ]
+  },
+  {
+    "id": "breath-vs-breathe",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "BREATH",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "BREATHE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "The air you take in",
+    "word1_example": "\"Take a deep breath.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "To inhale and exhale",
+    "word2_example": "\"Remember to breathe slowly.\"",
+    "word2_icon": "arrow",
+    "cards_header": "BREATH vs BREATHE",
+    "word1_card_sub": "Noun — the air",
+    "word1_card_lines": [
+      "Take a breath",
+      "Out of breath"
+    ],
+    "word2_card_sub": "Verb — the action",
+    "word2_card_lines": [
+      "Just breathe",
+      "Breathe deeply"
+    ],
+    "quiz_question": [
+      "Take a deep ___, then",
+      "slowly ___ out."
+    ],
+    "result_line1": "BREATH = noun (the air)",
+    "result_line2": "BREATHE = verb (the action)",
+    "promo_tagline": "Breath vs Breathe — Know the difference.",
+    "tts": [
+      "B1 English: breath versus breathe.",
+      "Breath is a noun meaning the air you take in. Take a deep breath.",
+      "Breathe is a verb meaning to inhale and exhale. Remember to breathe slowly.",
+      "Breath has no E at the end. Breathe has an E and is the action. Know the difference.",
+      "Quiz: Take a deep blank, then slowly blank out.",
+      "Answer: breath and breathe. Breath is the noun, breathe is the verb."
+    ]
+  },
+  {
+    "id": "adapt-vs-adopt",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ADAPT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ADOPT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To adjust to conditions",
+    "word1_example": "\"We adapted to the cold.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Verb",
+    "word2_def": "To take on or choose",
+    "word2_example": "\"They adopted a new policy.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "ADAPT vs ADOPT",
+    "word1_card_sub": "A = Adjust",
+    "word1_card_lines": [
+      "Adapt to change",
+      "Adapt the design"
+    ],
+    "word2_card_sub": "O = Own / take",
+    "word2_card_lines": [
+      "Adopt a child",
+      "Adopt a plan"
+    ],
+    "quiz_question": [
+      "We ___ the plan and",
+      "we ___ to new rules."
+    ],
+    "result_line1": "ADAPT = adjust to fit",
+    "result_line2": "ADOPT = take as your own",
+    "promo_tagline": "Adapt vs Adopt — Know the difference.",
+    "tts": [
+      "B2 English: adapt versus adopt.",
+      "Adapt means to adjust to conditions. We adapted to the cold.",
+      "Adopt means to take on or choose. They adopted a new policy.",
+      "Adapt has an A and means adjust. Adopt has an O and means take. Know the difference.",
+      "Quiz: We blank the plan and we blank to new rules.",
+      "Answer: adopt and adapt. Adopt is to take on, adapt is to adjust."
+    ]
+  },
+  {
+    "id": "averse-vs-adverse",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "AVERSE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ADVERSE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Strongly disliking",
+    "word1_example": "\"He is averse to risk.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Adjective",
+    "word2_def": "Harmful or unfavorable",
+    "word2_example": "\"Adverse weather delayed us.\"",
+    "word2_icon": "arrow",
+    "cards_header": "AVERSE vs ADVERSE",
+    "word1_card_sub": "Personal dislike",
+    "word1_card_lines": [
+      "Risk averse",
+      "Not averse to it"
+    ],
+    "word2_card_sub": "Harmful conditions",
+    "word2_card_lines": [
+      "Adverse effects",
+      "Adverse weather"
+    ],
+    "quiz_question": [
+      "I am ___ to change, and",
+      "the ___ weather did not help."
+    ],
+    "result_line1": "AVERSE = personal dislike",
+    "result_line2": "ADVERSE = harmful/unfavorable",
+    "promo_tagline": "Averse vs Adverse — Know the difference.",
+    "tts": [
+      "C1 English: averse versus adverse.",
+      "Averse means strongly disliking. He is averse to risk.",
+      "Adverse means harmful or unfavorable. Adverse weather delayed us.",
+      "Averse is a personal feeling against. Adverse describes bad conditions. Know the difference.",
+      "Quiz: I am blank to change, and the blank weather did not help.",
+      "Answer: averse and adverse. Averse is personal, adverse is harmful."
+    ]
+  },
+  {
+    "id": "council-vs-counsel2",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "COUNCIL",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "COUNSEL",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "An advisory or governing body",
+    "word1_example": "\"The council voted yes.\"",
+    "word1_icon": "group",
+    "word2_pos": "Noun / Verb",
+    "word2_def": "Advice / to advise",
+    "word2_example": "\"I will counsel him.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "COUNCIL vs COUNSEL",
+    "word1_card_sub": "The body",
+    "word1_card_lines": [
+      "City council",
+      "Student council"
+    ],
+    "word2_card_sub": "Advice / guide",
+    "word2_card_lines": [
+      "Legal counsel",
+      "Counsel a friend"
+    ],
+    "quiz_question": [
+      "The city ___ will vote,",
+      "then ___ me on the result."
+    ],
+    "result_line1": "COUNCIL = the body",
+    "result_line2": "COUNSEL = advice / advise",
+    "promo_tagline": "Council vs Counsel — Know the difference.",
+    "tts": [
+      "B2 English: council versus counsel.",
+      "Council is a noun meaning an advisory or governing body. The council voted yes.",
+      "Counsel means advice or to advise. I will counsel him.",
+      "Council ends in IL and is the group. Counsel ends in EL and is advice. Know the difference.",
+      "Quiz: The city blank will vote, then blank me on the result.",
+      "Answer: council and counsel. Council is the group, counsel is advice."
+    ]
+  },
+  {
+    "id": "envelope-vs-envelop",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ENVELOPE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ENVELOP",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "A paper wrapper for letters",
+    "word1_example": "\"Seal the envelope.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "To surround or cover",
+    "word2_example": "\"Fog can envelop a city.\"",
+    "word2_icon": "arrow",
+    "cards_header": "ENVELOPE vs ENVELOP",
+    "word1_card_sub": "Noun — the wrapper (stress E)",
+    "word1_card_lines": [
+      "Letter envelope",
+      "Push the envelope"
+    ],
+    "word2_card_sub": "Verb — to surround (stress EN)",
+    "word2_card_lines": [
+      "Envelop the house",
+      "Enveloped in mist"
+    ],
+    "quiz_question": [
+      "Put the letter in the ___,",
+      "as the night will ___ us."
+    ],
+    "result_line1": "ENVELOPE = noun (AY envelope)",
+    "result_line2": "ENVELOP = verb (en VEL up)",
+    "promo_tagline": "Envelope vs Envelop — Know the difference.",
+    "tts": [
+      "C1 English: envelope versus envelop.",
+      "Envelope is a noun meaning a paper wrapper. Seal the envelope.",
+      "Envelop is a verb meaning to surround. Fog can envelop a city.",
+      "Envelope has a final E and is the noun. Envelop has no final E and is the verb. Know the difference.",
+      "Quiz: Put the letter in the blank, as the night will blank us.",
+      "Answer: envelope and envelop. Envelope is the noun, envelop is the verb."
+    ]
+  },
+  {
+    "id": "say-vs-tell",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "SAY",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "TELL",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To utter words",
+    "word1_example": "\"He said hello.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Verb",
+    "word2_def": "To communicate to someone",
+    "word2_example": "\"She told me a story.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "SAY vs TELL",
+    "word1_card_sub": "Just speak words",
+    "word1_card_lines": [
+      "Say hi",
+      "Say something"
+    ],
+    "word2_card_sub": "Tell someone",
+    "word2_card_lines": [
+      "Tell the truth",
+      "Tell a story"
+    ],
+    "quiz_question": [
+      "He didn't ___ anything,",
+      "he just ___ me to go."
+    ],
+    "result_line1": "SAY = utter words (no object)",
+    "result_line2": "TELL = communicate to someone",
+    "promo_tagline": "Say vs Tell — Know the difference.",
+    "tts": [
+      "A2 English: say versus tell.",
+      "Say means to utter words. He said hello.",
+      "Tell means to communicate to someone. She told me a story.",
+      "You say something. You tell someone something. Know the difference.",
+      "Quiz: He didn't blank anything, he just blank me to go.",
+      "Answer: say and tell. Say needs no object, tell needs a person."
+    ]
+  },
+  {
+    "id": "speak-vs-talk",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "SPEAK",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "TALK",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To use language / formal",
+    "word1_example": "\"I speak English.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "To have a conversation",
+    "word2_example": "\"We talked for hours.\"",
+    "word2_icon": "arrow",
+    "cards_header": "SPEAK vs TALK",
+    "word1_card_sub": "Use a language / formal",
+    "word1_card_lines": [
+      "Speak English",
+      "Speak clearly"
+    ],
+    "word2_card_sub": "Have a conversation",
+    "word2_card_lines": [
+      "Talk to a friend",
+      "Talk about it"
+    ],
+    "quiz_question": [
+      "Can you ___ Spanish?",
+      "Let's ___ about the plan."
+    ],
+    "result_line1": "SPEAK = language / formal",
+    "result_line2": "TALK = conversation",
+    "promo_tagline": "Speak vs Talk — Know the difference.",
+    "tts": [
+      "A2 English: speak versus talk.",
+      "Speak means to use a language or formal address. I speak English.",
+      "Talk means to have a conversation. We talked for hours.",
+      "Speak is one-way or language. Talk is two-way chat. Know the difference.",
+      "Quiz: Can you blank Spanish? Let's blank about the plan.",
+      "Answer: speak and talk. Speak for languages, talk for chatting."
+    ]
+  },
+  {
+    "id": "hear-vs-listen",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "HEAR",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "LISTEN",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To receive sound (passive)",
+    "word1_example": "\"I heard a noise.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Verb",
+    "word2_def": "To pay attention to sound",
+    "word2_example": "\"Listen to the music.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "HEAR vs LISTEN",
+    "word1_card_sub": "Passive - it reaches you",
+    "word1_card_lines": [
+      "Hear a sound",
+      "Can't hear you"
+    ],
+    "word2_card_sub": "Active - you focus",
+    "word2_card_lines": [
+      "Listen carefully",
+      "Listen to me"
+    ],
+    "quiz_question": [
+      "I didn't ___ the phone,",
+      "I wasn't ___."
+    ],
+    "result_line1": "HEAR = passive reception",
+    "result_line2": "LISTEN = active attention",
+    "promo_tagline": "Hear vs Listen — Know the difference.",
+    "tts": [
+      "A2 English: hear versus listen.",
+      "Hear is passive — sound reaches your ears. I heard a noise.",
+      "Listen is active — you pay attention. Listen to the music.",
+      "Hear happens to you. Listen is what you do. Know the difference.",
+      "Quiz: I didn't blank the phone, I wasn't blank.",
+      "Answer: hear and listen. Hear is passive, listen is active."
+    ]
+  },
+  {
+    "id": "job-vs-work",
+    "level": "LEVEL A2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "JOB",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "WORK",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "A specific paid position",
+    "word1_example": "\"I have a new job.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Noun / Verb",
+    "word2_def": "Activity / to labor",
+    "word2_example": "\"I go to work at 9.\"",
+    "word2_icon": "arrow",
+    "cards_header": "JOB vs WORK",
+    "word1_card_sub": "Countable position",
+    "word1_card_lines": [
+      "Apply for a job",
+      "Lost my job"
+    ],
+    "word2_card_sub": "Uncountable activity",
+    "word2_card_lines": [
+      "Hard work",
+      "Work hours"
+    ],
+    "quiz_question": [
+      "She got a new ___,",
+      "but the ___ is hard."
+    ],
+    "result_line1": "JOB = a position (countable)",
+    "result_line2": "WORK = activity (uncountable)",
+    "promo_tagline": "Job vs Work — Know the difference.",
+    "tts": [
+      "A2 English: job versus work.",
+      "Job is a countable noun — a specific position. I have a new job.",
+      "Work is uncountable — the activity itself. The work is hard.",
+      "You can have multiple jobs. Work is what you do. Know the difference.",
+      "Quiz: She got a new blank, but the blank is hard.",
+      "Answer: job and work. Job is countable, work is uncountable."
+    ]
+  },
+  {
+    "id": "fun-vs-funny",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "FUN",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "FUNNY",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun / Adjective",
+    "word1_def": "Enjoyment / entertaining",
+    "word1_example": "\"The party was fun.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Adjective",
+    "word2_def": "Causing laughter / strange",
+    "word2_example": "\"That joke is funny.\"",
+    "word2_icon": "arrow",
+    "cards_header": "FUN vs FUNNY",
+    "word1_card_sub": "Enjoyable, pleasure",
+    "word1_card_lines": [
+      "Have fun",
+      "Fun times"
+    ],
+    "word2_card_sub": "Makes you laugh / odd",
+    "word2_card_lines": [
+      "Funny movie",
+      "Funny smell"
+    ],
+    "quiz_question": [
+      "The party was ___,",
+      "and his jokes were ___."
+    ],
+    "result_line1": "FUN = enjoyment",
+    "result_line2": "FUNNY = makes you laugh",
+    "promo_tagline": "Fun vs Funny — Know the difference.",
+    "tts": [
+      "B1 English: fun versus funny.",
+      "Fun means enjoyment or entertaining. The party was fun.",
+      "Funny means causing laughter. That joke is funny.",
+      "Fun is the feeling. Funny is what causes it. Know the difference.",
+      "Quiz: The party was blank, and his jokes were blank.",
+      "Answer: fun and funny. Fun is enjoyment, funny makes you laugh."
+    ]
+  },
+  {
+    "id": "remember-vs-remind",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "REMEMBER",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "REMIND",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To keep in memory",
+    "word1_example": "\"I remember my childhood.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Verb",
+    "word2_def": "To make someone remember",
+    "word2_example": "\"Remind me to call her.\"",
+    "word2_icon": "arrow",
+    "cards_header": "REMEMBER vs REMIND",
+    "word1_card_sub": "Internal memory",
+    "word1_card_lines": [
+      "Remember a name",
+      "I remember that"
+    ],
+    "word2_card_sub": "External prompt",
+    "word2_card_lines": [
+      "Remind me later",
+      "Remind someone"
+    ],
+    "quiz_question": [
+      "I ___ the day we met.",
+      "Please ___ me to buy milk."
+    ],
+    "result_line1": "REMEMBER = recall yourself",
+    "result_line2": "REMIND = make another recall",
+    "promo_tagline": "Remember vs Remind — Know the difference.",
+    "tts": [
+      "B1 English: remember versus remind.",
+      "Remember means to recall from your own memory. I remember my childhood.",
+      "Remind means to make someone else remember. Remind me to call her.",
+      "Remember is internal. Remind is external. Know the difference.",
+      "Quiz: I blank the day we met. Please blank me to buy milk.",
+      "Answer: remember and remind. Remember is you, remind is for others."
+    ]
+  },
+  {
+    "id": "especially-vs-specially",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "ESPECIALLY",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "SPECIALLY",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adverb",
+    "word1_def": "Particularly, above all",
+    "word1_example": "\"I love fruit, especially mango.\"",
+    "word1_icon": "checkmark",
+    "word2_pos": "Adverb",
+    "word2_def": "For a special purpose",
+    "word2_example": "\"Made specially for you.\"",
+    "word2_icon": "arrow",
+    "cards_header": "ESPECIALLY vs SPECIALLY",
+    "word1_card_sub": "Particularly / above all",
+    "word1_card_lines": [
+      "Especially good",
+      "Especially in winter"
+    ],
+    "word2_card_sub": "For a special purpose",
+    "word2_card_lines": [
+      "Specially designed",
+      "Specially made"
+    ],
+    "quiz_question": [
+      "I hate cold, ___ in",
+      "December. This was ___ made."
+    ],
+    "result_line1": "ESPECIALLY = particularly",
+    "result_line2": "SPECIALLY = for special purpose",
+    "promo_tagline": "Especially vs Specially — Know the difference.",
+    "tts": [
+      "B2 English: especially versus specially.",
+      "Especially means particularly or above all. I love fruit, especially mango.",
+      "Specially means for a special purpose. This was specially made for you.",
+      "Especially singles out. Specially indicates purpose. Know the difference.",
+      "Quiz: I hate cold, blank in December. This was blank made.",
+      "Answer: especially and specially. Especially singles out, specially is purpose."
+    ]
+  },
+  {
+    "id": "continual-vs-continuous",
+    "level": "LEVEL B2",
+    "subtitle": "Commonly Confused Words",
+    "word1": "CONTINUAL",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "CONTINUOUS",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Repeated frequently",
+    "word1_example": "\"Continual interruptions.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Adjective",
+    "word2_def": "Without interruption",
+    "word2_example": "\"Continuous noise.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "CONTINUAL vs CONTINUOUS",
+    "word1_card_sub": "Starts and stops (repeated)",
+    "word1_card_lines": [
+      "Continual rain",
+      "Continual problems"
+    ],
+    "word2_card_sub": "Non-stop, unbroken",
+    "word2_card_lines": [
+      "Continuous flow",
+      "Continuous line"
+    ],
+    "quiz_question": [
+      "The ___ rain stopped",
+      "and started all day. The ___ hum never ended."
+    ],
+    "result_line1": "CONTINUAL = repeated intervals",
+    "result_line2": "CONTINUOUS = without pause",
+    "promo_tagline": "Continual vs Continuous — Know the difference.",
+    "tts": [
+      "B2 English: continual versus continuous.",
+      "Continual means repeated frequently with breaks. Continual interruptions.",
+      "Continuous means without interruption. Continuous noise.",
+      "Continual comes and goes. Continuous never stops. Know the difference.",
+      "Quiz: The blank rain stopped and started. The blank hum never ended.",
+      "Answer: continual and continuous. Continual has breaks, continuous doesn't."
+    ]
+  },
+  {
+    "id": "stationary-vs-stationery3",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "STATIONARY",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "STATIONERY",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Adjective",
+    "word1_def": "Not moving, fixed",
+    "word1_example": "\"The car remained stationary.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Noun",
+    "word2_def": "Writing materials",
+    "word2_example": "\"Office stationery order.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "STATIONARY vs STATIONERY",
+    "word1_card_sub": "Not moving (A = at rest)",
+    "word1_card_lines": [
+      "Stationary bike",
+      "Remained stationary"
+    ],
+    "word2_card_sub": "Writing supplies (E = envelope)",
+    "word2_card_lines": [
+      "Letter stationery",
+      "Pen and paper"
+    ],
+    "quiz_question": [
+      "The train was ___ for",
+      "an hour. I bought new ___."
+    ],
+    "result_line1": "STATIONARY = not moving",
+    "result_line2": "STATIONERY = writing paper",
+    "promo_tagline": "Stationary vs Stationery — Know the difference.",
+    "tts": [
+      "C1 English: stationary versus stationery.",
+      "Stationary means not moving. The car remained stationary.",
+      "Stationery means writing materials. I bought new stationery.",
+      "Stationary with an A stands for At rest. Stationery with an E stands for Envelope. Know the difference.",
+      "Quiz: The train was blank for an hour. I bought new blank.",
+      "Answer: stationary and stationery. A for at rest, E for envelope."
+    ]
+  },
+  {
+    "id": "precede-vs-proceed",
+    "level": "LEVEL C1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "PRECEDE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "PROCEED",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Verb",
+    "word1_def": "To come before",
+    "word1_example": "\"A precedes B in the alphabet.\"",
+    "word1_icon": "arrow",
+    "word2_pos": "Verb",
+    "word2_def": "To go forward / continue",
+    "word2_example": "\"Please proceed to the gate.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "PRECEDE vs PROCEED",
+    "word1_card_sub": "Come before (pre = before)",
+    "word1_card_lines": [
+      "Precedes in order",
+      "Preceded by a warning"
+    ],
+    "word2_card_sub": "Go forward (pro = forward)",
+    "word2_card_lines": [
+      "Proceed with care",
+      "Proceed to checkout"
+    ],
+    "quiz_question": [
+      "The introduction will ___",
+      "the main talk. You may now ___."
+    ],
+    "result_line1": "PRECEDE = come before",
+    "result_line2": "PROCEED = go forward",
+    "promo_tagline": "Precede vs Proceed — Know the difference.",
+    "tts": [
+      "C1 English: precede versus proceed.",
+      "Precede means to come before. A precedes B in the alphabet.",
+      "Proceed means to go forward or continue. Please proceed to the gate.",
+      "Pre-cede is pre (before). Pro-ceed is pro (forward). Know the difference.",
+      "Quiz: The introduction will blank the main talk. You may now blank.",
+      "Answer: precede and proceed. Precede is before, proceed is forward."
+    ]
+  },
+  {
+    "id": "client-vs-customer",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "CLIENT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "CUSTOMER",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Person who pays for services",
+    "word1_example": "\"We value every client.\"",
+    "word1_icon": "handshake",
+    "word2_pos": "Noun",
+    "word2_def": "Person who buys goods",
+    "word2_example": "\"The customer is always right.\"",
+    "word2_icon": "shopping-cart",
+    "cards_header": "CLIENT vs CUSTOMER",
+    "word1_card_sub": "Person who pays for services",
+    "word1_card_lines": [
+      "We value every client.",
+      "Client usage"
+    ],
+    "word2_card_sub": "Person who buys goods",
+    "word2_card_lines": [
+      "The customer is always right.",
+      "Customer usage"
+    ],
+    "quiz_question": [
+      "Choose: Client or Customer?",
+      "Fill in the blank."
+    ],
+    "result_line1": "CLIENT = Person who pays for services",
+    "result_line2": "CUSTOMER = Person who buys goods",
+    "promo_tagline": "Client vs Customer — Know the difference.",
+    "tts": [
+      "B1 English: client versus customer.",
+      "Client means person who pays for services. \"We value every client.\".",
+      "Customer means person who buys goods. \"The customer is always right.\".",
+      "Client is person who pays for services. Customer is person who buys goods. Know the difference.",
+      "Quiz: Choose the right word — Client or Customer?",
+      "Answer: client. Client means person who pays for services."
+    ]
+  },
+  {
+    "id": "career-vs-job",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "CAREER",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "JOB",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Long-term professional path",
+    "word1_example": "\"She built a career in law.\"",
+    "word1_icon": "briefcase",
+    "word2_pos": "Noun",
+    "word2_def": "Specific position",
+    "word2_example": "\"He got a new job.\"",
+    "word2_icon": "briefcase",
+    "cards_header": "CAREER vs JOB",
+    "word1_card_sub": "Long-term professional path",
+    "word1_card_lines": [
+      "She built a career in law.",
+      "Career usage"
+    ],
+    "word2_card_sub": "Specific position",
+    "word2_card_lines": [
+      "He got a new job.",
+      "Job usage"
+    ],
+    "quiz_question": [
+      "Choose: Career or Job?",
+      "Fill in the blank."
+    ],
+    "result_line1": "CAREER = Long-term professional path",
+    "result_line2": "JOB = Specific position",
+    "promo_tagline": "Career vs Job — Know the difference.",
+    "tts": [
+      "B1 English: career versus job.",
+      "Career means long-term professional path. \"She built a career in law.\".",
+      "Job means specific position. \"He got a new job.\".",
+      "Career is long-term professional path. Job is specific position. Know the difference.",
+      "Quiz: Choose the right word — Career or Job?",
+      "Answer: career. Career means long-term professional path."
+    ]
+  },
+  {
+    "id": "business-vs-company",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "BUSINESS",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "COMPANY",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Commercial activity",
+    "word1_example": "\"He runs a business.\"",
+    "word1_icon": "building",
+    "word2_pos": "Noun",
+    "word2_def": "Legal entity",
+    "word2_example": "\"She works for a company.\"",
+    "word2_icon": "building",
+    "cards_header": "BUSINESS vs COMPANY",
+    "word1_card_sub": "Commercial activity",
+    "word1_card_lines": [
+      "He runs a business.",
+      "Business usage"
+    ],
+    "word2_card_sub": "Legal entity",
+    "word2_card_lines": [
+      "She works for a company.",
+      "Company usage"
+    ],
+    "quiz_question": [
+      "Choose: Business or Company?",
+      "Fill in the blank."
+    ],
+    "result_line1": "BUSINESS = Commercial activity",
+    "result_line2": "COMPANY = Legal entity",
+    "promo_tagline": "Business vs Company — Know the difference.",
+    "tts": [
+      "B1 English: business versus company.",
+      "Business means commercial activity. \"He runs a business.\".",
+      "Company means legal entity. \"She works for a company.\".",
+      "Business is commercial activity. Company is legal entity. Know the difference.",
+      "Quiz: Choose the right word — Business or Company?",
+      "Answer: business. Business means commercial activity."
+    ]
+  },
+  {
+    "id": "meeting-vs-appointment",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "MEETING",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "APPOINTMENT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Group discussion",
+    "word1_example": "\"Team meeting at 10.\"",
+    "word1_icon": "users",
+    "word2_pos": "Noun",
+    "word2_def": "Scheduled time",
+    "word2_example": "\"Doctor appointment at 3.\"",
+    "word2_icon": "calendar",
+    "cards_header": "MEETING vs APPOINTMENT",
+    "word1_card_sub": "Group discussion",
+    "word1_card_lines": [
+      "Team meeting at 10.",
+      "Meeting usage"
+    ],
+    "word2_card_sub": "Scheduled time",
+    "word2_card_lines": [
+      "Doctor appointment at 3.",
+      "Appointment usage"
+    ],
+    "quiz_question": [
+      "Choose: Meeting or Appointment?",
+      "Fill in the blank."
+    ],
+    "result_line1": "MEETING = Group discussion",
+    "result_line2": "APPOINTMENT = Scheduled time",
+    "promo_tagline": "Meeting vs Appointment — Know the difference.",
+    "tts": [
+      "B1 English: meeting versus appointment.",
+      "Meeting means group discussion. \"Team meeting at 10.\".",
+      "Appointment means scheduled time. \"Doctor appointment at 3.\".",
+      "Meeting is group discussion. Appointment is scheduled time. Know the difference.",
+      "Quiz: Choose the right word — Meeting or Appointment?",
+      "Answer: meeting. Meeting means group discussion."
+    ]
+  },
+  {
+    "id": "project-vs-task",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "PROJECT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "TASK",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Multi-step initiative",
+    "word1_example": "\"The project took months.\"",
+    "word1_icon": "kanban",
+    "word2_pos": "Noun",
+    "word2_def": "Single piece of work",
+    "word2_example": "\"Finish this task today.\"",
+    "word2_icon": "checkmark",
+    "cards_header": "PROJECT vs TASK",
+    "word1_card_sub": "Multi-step initiative",
+    "word1_card_lines": [
+      "The project took months.",
+      "Project usage"
+    ],
+    "word2_card_sub": "Single piece of work",
+    "word2_card_lines": [
+      "Finish this task today.",
+      "Task usage"
+    ],
+    "quiz_question": [
+      "Choose: Project or Task?",
+      "Fill in the blank."
+    ],
+    "result_line1": "PROJECT = Multi-step initiative",
+    "result_line2": "TASK = Single piece of work",
+    "promo_tagline": "Project vs Task — Know the difference.",
+    "tts": [
+      "B1 English: project versus task.",
+      "Project means multi-step initiative. \"The project took months.\".",
+      "Task means single piece of work. \"Finish this task today.\".",
+      "Project is multi-step initiative. Task is single piece of work. Know the difference.",
+      "Quiz: Choose the right word — Project or Task?",
+      "Answer: project. Project means multi-step initiative."
+    ]
+  },
+  {
+    "id": "goal-vs-objective",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "GOAL",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "OBJECTIVE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Desired outcome",
+    "word1_example": "\"My goal is fluency.\"",
+    "word1_icon": "target",
+    "word2_pos": "Noun",
+    "word2_def": "Measurable target",
+    "word2_example": "\"Objective: pass B2.\"",
+    "word2_icon": "target",
+    "cards_header": "GOAL vs OBJECTIVE",
+    "word1_card_sub": "Desired outcome",
+    "word1_card_lines": [
+      "My goal is fluency.",
+      "Goal usage"
+    ],
+    "word2_card_sub": "Measurable target",
+    "word2_card_lines": [
+      "Objective: pass B2.",
+      "Objective usage"
+    ],
+    "quiz_question": [
+      "Choose: Goal or Objective?",
+      "Fill in the blank."
+    ],
+    "result_line1": "GOAL = Desired outcome",
+    "result_line2": "OBJECTIVE = Measurable target",
+    "promo_tagline": "Goal vs Objective — Know the difference.",
+    "tts": [
+      "B1 English: goal versus objective.",
+      "Goal means desired outcome. \"My goal is fluency.\".",
+      "Objective means measurable target. \"Objective: pass B2.\".",
+      "Goal is desired outcome. Objective is measurable target. Know the difference.",
+      "Quiz: Choose the right word — Goal or Objective?",
+      "Answer: goal. Goal means desired outcome."
+    ]
+  },
+  {
+    "id": "skill-vs-ability",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "SKILL",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ABILITY",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Learned capability",
+    "word1_example": "\"Coding is a skill.\"",
+    "word1_icon": "tool",
+    "word2_pos": "Noun",
+    "word2_def": "Natural or learned capacity",
+    "word2_example": "\"He has the ability to lead.\"",
+    "word2_icon": "brain",
+    "cards_header": "SKILL vs ABILITY",
+    "word1_card_sub": "Learned capability",
+    "word1_card_lines": [
+      "Coding is a skill.",
+      "Skill usage"
+    ],
+    "word2_card_sub": "Natural or learned capacity",
+    "word2_card_lines": [
+      "He has the ability to lead.",
+      "Ability usage"
+    ],
+    "quiz_question": [
+      "Choose: Skill or Ability?",
+      "Fill in the blank."
+    ],
+    "result_line1": "SKILL = Learned capability",
+    "result_line2": "ABILITY = Natural or learned capacity",
+    "promo_tagline": "Skill vs Ability — Know the difference.",
+    "tts": [
+      "B1 English: skill versus ability.",
+      "Skill means learned capability. \"Coding is a skill.\".",
+      "Ability means natural or learned capacity. \"He has the ability to lead.\".",
+      "Skill is learned capability. Ability is natural or learned capacity. Know the difference.",
+      "Quiz: Choose the right word — Skill or Ability?",
+      "Answer: skill. Skill means learned capability."
+    ]
+  },
+  {
+    "id": "experience-vs-knowledge",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "EXPERIENCE",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "KNOWLEDGE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Practical involvement",
+    "word1_example": "\"Experience teaches.\"",
+    "word1_icon": "graduation-cap",
+    "word2_pos": "Noun",
+    "word2_def": "Theoretical understanding",
+    "word2_example": "\"Knowledge is power.\"",
+    "word2_icon": "book",
+    "cards_header": "EXPERIENCE vs KNOWLEDGE",
+    "word1_card_sub": "Practical involvement",
+    "word1_card_lines": [
+      "Experience teaches.",
+      "Experience usage"
+    ],
+    "word2_card_sub": "Theoretical understanding",
+    "word2_card_lines": [
+      "Knowledge is power.",
+      "Knowledge usage"
+    ],
+    "quiz_question": [
+      "Choose: Experience or Knowledge?",
+      "Fill in the blank."
+    ],
+    "result_line1": "EXPERIENCE = Practical involvement",
+    "result_line2": "KNOWLEDGE = Theoretical understanding",
+    "promo_tagline": "Experience vs Knowledge — Know the difference.",
+    "tts": [
+      "B1 English: experience versus knowledge.",
+      "Experience means practical involvement. \"Experience teaches.\".",
+      "Knowledge means theoretical understanding. \"Knowledge is power.\".",
+      "Experience is practical involvement. Knowledge is theoretical understanding. Know the difference.",
+      "Quiz: Choose the right word — Experience or Knowledge?",
+      "Answer: experience. Experience means practical involvement."
+    ]
+  },
+  {
+    "id": "opportunity-vs-chance",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "OPPORTUNITY",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "CHANCE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Favorable circumstance",
+    "word1_example": "\"Great opportunity!\"",
+    "word1_icon": "star",
+    "word2_pos": "Noun",
+    "word2_def": "Possibility",
+    "word2_example": "\"Take a chance.\"",
+    "word2_icon": "dice",
+    "cards_header": "OPPORTUNITY vs CHANCE",
+    "word1_card_sub": "Favorable circumstance",
+    "word1_card_lines": [
+      "Great opportunity!",
+      "Opportunity usage"
+    ],
+    "word2_card_sub": "Possibility",
+    "word2_card_lines": [
+      "Take a chance.",
+      "Chance usage"
+    ],
+    "quiz_question": [
+      "Choose: Opportunity or Chance?",
+      "Fill in the blank."
+    ],
+    "result_line1": "OPPORTUNITY = Favorable circumstance",
+    "result_line2": "CHANCE = Possibility",
+    "promo_tagline": "Opportunity vs Chance — Know the difference.",
+    "tts": [
+      "B1 English: opportunity versus chance.",
+      "Opportunity means favorable circumstance. \"Great opportunity!\".",
+      "Chance means possibility. \"Take a chance.\".",
+      "Opportunity is favorable circumstance. Chance is possibility. Know the difference.",
+      "Quiz: Choose the right word — Opportunity or Chance?",
+      "Answer: opportunity. Opportunity means favorable circumstance."
+    ]
+  },
+  {
+    "id": "problem-vs-issue",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "PROBLEM",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ISSUE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Difficult situation",
+    "word1_example": "\"Solve the problem.\"",
+    "word1_icon": "alert-triangle",
+    "word2_pos": "Noun",
+    "word2_def": "Topic for discussion",
+    "word2_example": "\"Address the issue.\"",
+    "word2_icon": "message-square",
+    "cards_header": "PROBLEM vs ISSUE",
+    "word1_card_sub": "Difficult situation",
+    "word1_card_lines": [
+      "Solve the problem.",
+      "Problem usage"
+    ],
+    "word2_card_sub": "Topic for discussion",
+    "word2_card_lines": [
+      "Address the issue.",
+      "Issue usage"
+    ],
+    "quiz_question": [
+      "Choose: Problem or Issue?",
+      "Fill in the blank."
+    ],
+    "result_line1": "PROBLEM = Difficult situation",
+    "result_line2": "ISSUE = Topic for discussion",
+    "promo_tagline": "Problem vs Issue — Know the difference.",
+    "tts": [
+      "B1 English: problem versus issue.",
+      "Problem means difficult situation. \"Solve the problem.\".",
+      "Issue means topic for discussion. \"Address the issue.\".",
+      "Problem is difficult situation. Issue is topic for discussion. Know the difference.",
+      "Quiz: Choose the right word — Problem or Issue?",
+      "Answer: problem. Problem means difficult situation."
+    ]
+  },
+  {
+    "id": "solution-vs-answer",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "SOLUTION",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ANSWER",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Way to fix",
+    "word1_example": "\"Found a solution.\"",
+    "word1_icon": "lightbulb",
+    "word2_pos": "Noun",
+    "word2_def": "Response to question",
+    "word2_example": "\"The answer is 42.\"",
+    "word2_icon": "key",
+    "cards_header": "SOLUTION vs ANSWER",
+    "word1_card_sub": "Way to fix",
+    "word1_card_lines": [
+      "Found a solution.",
+      "Solution usage"
+    ],
+    "word2_card_sub": "Response to question",
+    "word2_card_lines": [
+      "The answer is 42.",
+      "Answer usage"
+    ],
+    "quiz_question": [
+      "Choose: Solution or Answer?",
+      "Fill in the blank."
+    ],
+    "result_line1": "SOLUTION = Way to fix",
+    "result_line2": "ANSWER = Response to question",
+    "promo_tagline": "Solution vs Answer — Know the difference.",
+    "tts": [
+      "B1 English: solution versus answer.",
+      "Solution means way to fix. \"Found a solution.\".",
+      "Answer means response to question. \"The answer is 42.\".",
+      "Solution is way to fix. Answer is response to question. Know the difference.",
+      "Quiz: Choose the right word — Solution or Answer?",
+      "Answer: solution. Solution means way to fix."
+    ]
+  },
+  {
+    "id": "decision-vs-choice",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "DECISION",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "CHOICE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Conclusion reached",
+    "word1_example": "\"Tough decision.\"",
+    "word1_icon": "git-branch",
+    "word2_pos": "Noun",
+    "word2_def": "Act of selecting",
+    "word2_example": "\"Your choice.\"",
+    "word2_icon": "fork",
+    "cards_header": "DECISION vs CHOICE",
+    "word1_card_sub": "Conclusion reached",
+    "word1_card_lines": [
+      "Tough decision.",
+      "Decision usage"
+    ],
+    "word2_card_sub": "Act of selecting",
+    "word2_card_lines": [
+      "Your choice.",
+      "Choice usage"
+    ],
+    "quiz_question": [
+      "Choose: Decision or Choice?",
+      "Fill in the blank."
+    ],
+    "result_line1": "DECISION = Conclusion reached",
+    "result_line2": "CHOICE = Act of selecting",
+    "promo_tagline": "Decision vs Choice — Know the difference.",
+    "tts": [
+      "B1 English: decision versus choice.",
+      "Decision means conclusion reached. \"Tough decision.\".",
+      "Choice means act of selecting. \"Your choice.\".",
+      "Decision is conclusion reached. Choice is act of selecting. Know the difference.",
+      "Quiz: Choose the right word — Decision or Choice?",
+      "Answer: decision. Decision means conclusion reached."
+    ]
+  },
+  {
+    "id": "plan-vs-strategy",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "PLAN",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "STRATEGY",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Step-by-step method",
+    "word1_example": "\"Follow the plan.\"",
+    "word1_icon": "map",
+    "word2_pos": "Noun",
+    "word2_def": "High-level approach",
+    "word2_example": "\"Long-term strategy.\"",
+    "word2_icon": "compass",
+    "cards_header": "PLAN vs STRATEGY",
+    "word1_card_sub": "Step-by-step method",
+    "word1_card_lines": [
+      "Follow the plan.",
+      "Plan usage"
+    ],
+    "word2_card_sub": "High-level approach",
+    "word2_card_lines": [
+      "Long-term strategy.",
+      "Strategy usage"
+    ],
+    "quiz_question": [
+      "Choose: Plan or Strategy?",
+      "Fill in the blank."
+    ],
+    "result_line1": "PLAN = Step-by-step method",
+    "result_line2": "STRATEGY = High-level approach",
+    "promo_tagline": "Plan vs Strategy — Know the difference.",
+    "tts": [
+      "B1 English: plan versus strategy.",
+      "Plan means step-by-step method. \"Follow the plan.\".",
+      "Strategy means high-level approach. \"Long-term strategy.\".",
+      "Plan is step-by-step method. Strategy is high-level approach. Know the difference.",
+      "Quiz: Choose the right word — Plan or Strategy?",
+      "Answer: plan. Plan means step-by-step method."
+    ]
+  },
+  {
+    "id": "result-vs-outcome",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "RESULT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "OUTCOME",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "What happened",
+    "word1_example": "\"Good result.\"",
+    "word1_icon": "check-circle",
+    "word2_pos": "Noun",
+    "word2_def": "Consequence",
+    "word2_example": "\"Positive outcome.\"",
+    "word2_icon": "bar-chart",
+    "cards_header": "RESULT vs OUTCOME",
+    "word1_card_sub": "What happened",
+    "word1_card_lines": [
+      "Good result.",
+      "Result usage"
+    ],
+    "word2_card_sub": "Consequence",
+    "word2_card_lines": [
+      "Positive outcome.",
+      "Outcome usage"
+    ],
+    "quiz_question": [
+      "Choose: Result or Outcome?",
+      "Fill in the blank."
+    ],
+    "result_line1": "RESULT = What happened",
+    "result_line2": "OUTCOME = Consequence",
+    "promo_tagline": "Result vs Outcome — Know the difference.",
+    "tts": [
+      "B1 English: result versus outcome.",
+      "Result means what happened. \"Good result.\".",
+      "Outcome means consequence. \"Positive outcome.\".",
+      "Result is what happened. Outcome is consequence. Know the difference.",
+      "Quiz: Choose the right word — Result or Outcome?",
+      "Answer: result. Result means what happened."
+    ]
+  },
+  {
+    "id": "success-vs-achievement",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "SUCCESS",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ACHIEVEMENT",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Favorable result",
+    "word1_example": "\"Celebrate success.\"",
+    "word1_icon": "trophy",
+    "word2_pos": "Noun",
+    "word2_def": "Accomplishment",
+    "word2_example": "\"Great achievement.\"",
+    "word2_icon": "award",
+    "cards_header": "SUCCESS vs ACHIEVEMENT",
+    "word1_card_sub": "Favorable result",
+    "word1_card_lines": [
+      "Celebrate success.",
+      "Success usage"
+    ],
+    "word2_card_sub": "Accomplishment",
+    "word2_card_lines": [
+      "Great achievement.",
+      "Achievement usage"
+    ],
+    "quiz_question": [
+      "Choose: Success or Achievement?",
+      "Fill in the blank."
+    ],
+    "result_line1": "SUCCESS = Favorable result",
+    "result_line2": "ACHIEVEMENT = Accomplishment",
+    "promo_tagline": "Success vs Achievement — Know the difference.",
+    "tts": [
+      "B1 English: success versus achievement.",
+      "Success means favorable result. \"Celebrate success.\".",
+      "Achievement means accomplishment. \"Great achievement.\".",
+      "Success is favorable result. Achievement is accomplishment. Know the difference.",
+      "Quiz: Choose the right word — Success or Achievement?",
+      "Answer: success. Success means favorable result."
+    ]
+  },
+  {
+    "id": "risk-vs-danger",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "RISK",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "DANGER",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Possibility of loss",
+    "word1_example": "\"Calculated risk.\"",
+    "word1_icon": "alert",
+    "word2_pos": "Noun",
+    "word2_def": "Serious threat",
+    "word2_example": "\"Immediate danger.\"",
+    "word2_icon": "skull",
+    "cards_header": "RISK vs DANGER",
+    "word1_card_sub": "Possibility of loss",
+    "word1_card_lines": [
+      "Calculated risk.",
+      "Risk usage"
+    ],
+    "word2_card_sub": "Serious threat",
+    "word2_card_lines": [
+      "Immediate danger.",
+      "Danger usage"
+    ],
+    "quiz_question": [
+      "Choose: Risk or Danger?",
+      "Fill in the blank."
+    ],
+    "result_line1": "RISK = Possibility of loss",
+    "result_line2": "DANGER = Serious threat",
+    "promo_tagline": "Risk vs Danger — Know the difference.",
+    "tts": [
+      "B1 English: risk versus danger.",
+      "Risk means possibility of loss. \"Calculated risk.\".",
+      "Danger means serious threat. \"Immediate danger.\".",
+      "Risk is possibility of loss. Danger is serious threat. Know the difference.",
+      "Quiz: Choose the right word — Risk or Danger?",
+      "Answer: risk. Risk means possibility of loss."
+    ]
+  },
+  {
+    "id": "benefit-vs-advantage",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "BENEFIT",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "ADVANTAGE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Good effect",
+    "word1_example": "\"Health benefits.\"",
+    "word1_icon": "plus",
+    "word2_pos": "Noun",
+    "word2_def": "Favorable position",
+    "word2_example": "\"Competitive advantage.\"",
+    "word2_icon": "uparrow",
+    "cards_header": "BENEFIT vs ADVANTAGE",
+    "word1_card_sub": "Good effect",
+    "word1_card_lines": [
+      "Health benefits.",
+      "Benefit usage"
+    ],
+    "word2_card_sub": "Favorable position",
+    "word2_card_lines": [
+      "Competitive advantage.",
+      "Advantage usage"
+    ],
+    "quiz_question": [
+      "Choose: Benefit or Advantage?",
+      "Fill in the blank."
+    ],
+    "result_line1": "BENEFIT = Good effect",
+    "result_line2": "ADVANTAGE = Favorable position",
+    "promo_tagline": "Benefit vs Advantage — Know the difference.",
+    "tts": [
+      "B1 English: benefit versus advantage.",
+      "Benefit means good effect. \"Health benefits.\".",
+      "Advantage means favorable position. \"Competitive advantage.\".",
+      "Benefit is good effect. Advantage is favorable position. Know the difference.",
+      "Quiz: Choose the right word — Benefit or Advantage?",
+      "Answer: benefit. Benefit means good effect."
+    ]
+  },
+  {
+    "id": "cost-vs-price",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "COST",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "PRICE",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "What you give up",
+    "word1_example": "\"High cost.\"",
+    "word1_icon": "dollar-sign",
+    "word2_pos": "Noun",
+    "word2_def": "Amount paid",
+    "word2_example": "\"Fair price.\"",
+    "word2_icon": "tag",
+    "cards_header": "COST vs PRICE",
+    "word1_card_sub": "What you give up",
+    "word1_card_lines": [
+      "High cost.",
+      "Cost usage"
+    ],
+    "word2_card_sub": "Amount paid",
+    "word2_card_lines": [
+      "Fair price.",
+      "Price usage"
+    ],
+    "quiz_question": [
+      "Choose: Cost or Price?",
+      "Fill in the blank."
+    ],
+    "result_line1": "COST = What you give up",
+    "result_line2": "PRICE = Amount paid",
+    "promo_tagline": "Cost vs Price — Know the difference.",
+    "tts": [
+      "B1 English: cost versus price.",
+      "Cost means what you give up. \"High cost.\".",
+      "Price means amount paid. \"Fair price.\".",
+      "Cost is what you give up. Price is amount paid. Know the difference.",
+      "Quiz: Choose the right word — Cost or Price?",
+      "Answer: cost. Cost means what you give up."
+    ]
+  },
+  {
+    "id": "quality-vs-standard",
+    "level": "LEVEL B1",
+    "subtitle": "Commonly Confused Words",
+    "word1": "QUALITY",
+    "word1_color": [
+      56,
+      189,
+      248
+    ],
+    "word2": "STANDARD",
+    "word2_color": [
+      255,
+      130,
+      58
+    ],
+    "word1_pos": "Noun",
+    "word1_def": "Level of excellence",
+    "word1_example": "\"High quality.\"",
+    "word1_icon": "star",
+    "word2_pos": "Noun",
+    "word2_def": "Required level",
+    "word2_example": "\"Meets standards.\"",
+    "word2_icon": "ruler",
+    "cards_header": "QUALITY vs STANDARD",
+    "word1_card_sub": "Level of excellence",
+    "word1_card_lines": [
+      "High quality.",
+      "Quality usage"
+    ],
+    "word2_card_sub": "Required level",
+    "word2_card_lines": [
+      "Meets standards.",
+      "Standard usage"
+    ],
+    "quiz_question": [
+      "Choose: Quality or Standard?",
+      "Fill in the blank."
+    ],
+    "result_line1": "QUALITY = Level of excellence",
+    "result_line2": "STANDARD = Required level",
+    "promo_tagline": "Quality vs Standard — Know the difference.",
+    "tts": [
+      "B1 English: quality versus standard.",
+      "Quality means level of excellence. \"High quality.\".",
+      "Standard means required level. \"Meets standards.\".",
+      "Quality is level of excellence. Standard is required level. Know the difference.",
+      "Quiz: Choose the right word — Quality or Standard?",
+      "Answer: quality. Quality means level of excellence."
+    ]
+  }
+]
