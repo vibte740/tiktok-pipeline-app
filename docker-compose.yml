@@ -1,0 +1,48 @@
+services:
+  vibte:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # 9Router (TTS + LLM)
+      - NINEROUTER_URL=${NINEROUTER_URL}
+      - NINEROUTER_API_KEY=${NINEROUTER_API_KEY}
+      - AI_MODEL=${AI_MODEL}
+
+      # MEGA
+      - MEGA_EMAIL=${MEGA_EMAIL}
+      - MEGA_PASSWORD=${MEGA_PASSWORD}
+      - MEGA_BASE=${MEGA_BASE}
+
+      # Supabase
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_KEY=${SUPABASE_SERVICE_KEY}
+      - SUPABASE_TABLE=${SUPABASE_TABLE}
+
+      # Vocab sources
+      - OXFORD_CSV_URL=${OXFORD_CSV_URL}
+      - DICT_API_URL=${DICT_API_URL}
+
+      # TikTok
+      - TIKTOK_CLIENT_KEY=${TIKTOK_CLIENT_KEY}
+      - TIKTOK_CLIENT_SECRET=${TIKTOK_CLIENT_SECRET}
+      - TIKTOK_REDIRECT_URI=${TIKTOK_REDIRECT_URI}
+
+      # App auth (SECRET_KEY must be fixed for persistent sessions)
+      - APP_USERNAME=${APP_USERNAME}
+      - APP_PASSWORD=${APP_PASSWORD}
+      - APP_SECRET_KEY=${APP_SECRET_KEY}
+
+      - VIBTE_WORKROOT=${VIBTE_WORKROOT}
+    volumes:
+      - vibte-work:/var/vibte
+      - vibte-hermes:/var/vibte/hermes
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    restart: unless-stopped
+
+volumes:
+  vibte-work:
+  vibte-hermes:
