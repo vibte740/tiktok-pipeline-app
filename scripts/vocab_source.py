@@ -53,11 +53,88 @@ POS_LABELS = {
     "interjection": "Interjection",
 }
 
+# Curated list of genuinely confusing word pairs (from episodes.json that exist in Oxford)
+# These are actual commonly confused English words that learners struggle with
+# Only pairs where BOTH words exist in Oxford 5000
+def _build_confusing_pairs(oxford_words: set) -> list:
+    """Build confusing pairs list filtered to words that exist in Oxford."""
+    all_pairs = [
+        ("affect", "effect"),
+        ("accept", "except"),
+        ("advice", "advise"),
+        ("their", "there"),
+        ("to", "too"),
+        ("then", "than"),
+        ("lie", "lay"),
+        ("borrow", "lend"),
+        ("teach", "learn"),
+        ("weather", "whether"),
+        ("principal", "principle"),
+        ("practice", "practise"),
+        ("licence", "license"),
+        ("win", "beat"),
+        ("come", "go"),
+        ("expect", "wait"),
+        ("risk", "danger"),
+        ("imply", "infer"),
+        ("breath", "breathe"),
+        ("adapt", "adopt"),
+        ("say", "tell"),
+        ("speak", "talk"),
+        ("hear", "listen"),
+        ("job", "work"),
+        ("fun", "funny"),
+        ("remember", "remind"),
+        ("precede", "proceed"),
+        ("cost", "price"),
+        ("quality", "standard"),
+        ("result", "outcome"),
+        ("success", "achievement"),
+        ("benefit", "advantage"),
+        ("decision", "choice"),
+        ("plan", "strategy"),
+        ("problem", "issue"),
+        ("solution", "answer"),
+        ("opportunity", "chance"),
+        ("skill", "ability"),
+        ("experience", "knowledge"),
+        ("client", "customer"),
+        ("career", "job"),
+        ("business", "company"),
+        ("meeting", "appointment"),
+        ("project", "task"),
+        ("goal", "objective"),
+    ]
+    # Filter to only pairs where both words exist in Oxford
+    return [(a, b) for a, b in all_pairs if a in oxford_words and b in oxford_words]
+
+# Will be initialized in __init__ after loading words
+CONFUSING_PAIRS = []
+
+
+def _similar_spelling(word1: str, word2: str, threshold: float = 0.6) -> bool:
+    """Check if words have similar spelling (simple heuristic)."""
+    w1, w2 = word1.lower(), word2.lower()
+    if abs(len(w1) - len(w2)) > 3:
+        return False
+    # Simple Jaccard similarity on bigrams
+    def bigrams(s):
+        return set(s[i:i+2] for i in range(len(s)-1))
+    b1, b2 = bigrams(w1), bigrams(w2)
+    if not b1 or not b2:
+        return False
+    return len(b1 & b2) / len(b1 | b2) >= threshold
+
 
 class VocabSource:
     def __init__(self):
         self.words = []
         self._load_oxford()
+        # Build confusing pairs after loading Oxford words
+        global CONFUSING_PAIRS
+        oxford_words = {w["word"].lower() for w in self.words}
+        CONFUSING_PAIRS = _build_confusing_pairs(oxford_words)
+        log.info(f"Built {len(CONFUSING_PAIRS)} confusing pairs from Oxford")
 
     def _load_oxford(self):
         """Load Oxford 5000 CSV from cache or download."""
@@ -115,12 +192,11 @@ class VocabSource:
         if not primary:
             return None
         
-        # Find a related/confusable word at similar level
-        same_level = [w for w in self.words if w.get("level", "").lower() == level.lower() and w["word"] != word]
-        if not same_level:
+        # Find a genuinely confusing word for this word
+        word2 = self._find_confusing_partner(word, level)
+        if not word2:
             return None
         
-        word2 = random.choice(same_level)["word"]
         secondary = self._fallback_definition(word2)
         if not secondary:
             return None
@@ -162,6 +238,34 @@ class VocabSource:
                 f"Answer: {word}. {word.capitalize()} means {primary['definition'][:30]}. {word2.capitalize()} means {secondary['definition'][:30]}.",
             ],
         }
+
+    def _find_confusing_partner(self, word: str, level: str) -> str | None:
+        """Find a genuinely confusing word partner for the given word."""
+        word_lower = word.lower()
+        
+        # First, check curated confusing pairs
+        for a, b in CONFUSING_PAIRS:
+            if word_lower == a:
+                # Check if partner exists in our word list at same level
+                for w in self.words:
+                    if w["word"].lower() == b and w.get("level", "").lower() == level.lower():
+                        return b
+            elif word_lower == b:
+                for w in self.words:
+                    if w["word"].lower() == a and w.get("level", "").lower() == level.lower():
+                        return a
+        
+        # Fallback: find words with similar spelling at same level
+        same_level = [w for w in self.words 
+                      if w.get("level", "").lower() == level.lower() and w["word"] != word]
+        
+        similar = [w for w in same_level if _similar_spelling(word_lower, w["word"].lower())]
+        if similar:
+            return random.choice(similar)["word"]
+        
+        # NO FINAL FALLBACK - return None if no genuinely confusing partner found
+        # This prevents random unrelated pairs like "prepared vs though"
+        return None
 
     def _fallback_definition(self, word: str) -> dict | None:
         """Fallback: use Oxford CSV definition URL (we just synthesize a basic def)."""
