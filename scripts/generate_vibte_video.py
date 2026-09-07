@@ -221,8 +221,22 @@ def draw_card(draw, cx, cy, w, h, color):
 # ── Slide renderers (one function per HTML slide type) ──
 
 def render_intro(draw, ep):
+    # Level at top: "LEVEL" in word1_color, "B1/B2/C1/C2" in word2_color
+    level_parts = ep["level"].split()
+    if len(level_parts) == 2:
+        level_label, level_value = level_parts
+        top_y = 120
+        f_large = font(100)
+        # Draw "LEVEL" in word1_color
+        w1 = text_w(f_large, level_label)
+        shadow_text(draw, (W - w1) // 2 - 10, top_y, level_label, f_large, ep["word1_color"])
+        # Draw "B1" in word2_color, positioned after "LEVEL"
+        w2 = text_w(f_large, level_value)
+        shadow_text(draw, (W - w1) // 2 + w1 + 10, top_y, level_value, f_large, ep["word2_color"])
+    else:
+        centered_text(draw, 120, ep["level"], font(100), ep["word1_color"])
+
     cy = H // 2
-    centered_text(draw, cy - 340, ep["level"], font(100), ep["word1_color"])
     centered_text(draw, cy - 220, ep["subtitle"], font(34), MUTED)
     lx = (W - 240) // 2
     draw.line([(lx, cy - 150), (lx + 240, cy - 150)], fill=(255, 255, 255, 40), width=2)
@@ -236,6 +250,7 @@ def render_word_detail(draw, word, pos, definition, example, color, icon_kind):
     centered_text(draw, top + 96, pos, font(32), MUTED)
     centered_text(draw, top + 230, definition, font(46), WHITE)
     draw_icon_box(draw, W // 2, top + 430, color, icon_kind)
+    # Show the actual example sentence (not "example sentence")
     centered_text(draw, top + 540, example, font(34, italic=True), WHITE)
 
 def render_cards(draw, ep):
