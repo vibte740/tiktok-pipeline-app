@@ -40,7 +40,7 @@
     ],
     "result_line1": "ALREADY = before now",
     "result_line2": "ALL READY = everyone prepared",
-    "promo_tagline": "Already vs All Ready — Know the difference.",
+    "promo_tagline": "Already vs All Ready \u2014 Know the difference.",
     "tts": [
       "B1 English: already versus all ready.",
       "Already means before now or earlier. She already left for work.",
@@ -91,7 +91,7 @@
     ],
     "result_line1": "AFFECT = to influence (verb)",
     "result_line2": "EFFECT = a result (noun)",
-    "promo_tagline": "Affect vs Effect — Know the difference.",
+    "promo_tagline": "Affect vs Effect \u2014 Know the difference.",
     "tts": [
       "B1 English: affect versus effect.",
       "Affect means to influence something. The weather affects my mood.",
@@ -142,7 +142,7 @@
     ],
     "result_line1": "ITS = belonging to it",
     "result_line2": "IT'S = it is / it has",
-    "promo_tagline": "Its vs It's — Know the difference.",
+    "promo_tagline": "Its vs It's \u2014 Know the difference.",
     "tts": [
       "A2 English: its versus it's.",
       "Its shows possession. The cat licked its paw.",
@@ -193,13 +193,13 @@
     ],
     "result_line1": "THEIR = belonging to them",
     "result_line2": "THERE = place / THEY'RE = they are",
-    "promo_tagline": "Their vs There vs They're — Know the difference.",
+    "promo_tagline": "Their vs There vs They're \u2014 Know the difference.",
     "tts": [
       "A2 English: their versus there versus they're.",
       "Their shows possession. Their house is big.",
       "There shows location. And they're is short for they are.",
       "Their is possession. There is place. They're is they are.",
-      "Quiz: Blank going to meet us at blank house later.",
+      "Quiz: blank going to meet us at blank house later.",
       "Answer: they're and their."
     ]
   },
@@ -244,13 +244,13 @@
     ],
     "result_line1": "YOUR = belonging to you",
     "result_line2": "YOU'RE = you are",
-    "promo_tagline": "Your vs You're — Know the difference.",
+    "promo_tagline": "Your vs You're \u2014 Know the difference.",
     "tts": [
       "A2 English: your versus you're.",
       "Your shows possession. Is this your phone?",
       "You're is a contraction of you are. You're very kind.",
       "Your is possessive. You're means you are. Know the difference.",
-      "Quiz: I think blank going to love blank new present.",
+      "Quiz: I think blank going to love blank new present!",
       "Answer: you're and your."
     ]
   },
@@ -295,13 +295,13 @@
     ],
     "result_line1": "TO = direction / purpose",
     "result_line2": "TOO = also / TWO = the number",
-    "promo_tagline": "To vs Too vs Two — Know the difference.",
+    "promo_tagline": "To vs Too vs Two \u2014 Know the difference.",
     "tts": [
       "A2 English: to versus too versus two.",
       "To shows direction or purpose. I go to school.",
       "Too means also, and two is the number 2.",
       "To is for direction. Too means also. Two is the number.",
-      "Quiz: I want blank go blank said the child.",
+      "Quiz: I want blank go blank! said the child.",
       "Answer: to and too."
     ]
   },
@@ -346,13 +346,13 @@
     ],
     "result_line1": "THEN = next in time",
     "result_line2": "THAN = comparison",
-    "promo_tagline": "Then vs Than — Know the difference.",
+    "promo_tagline": "Then vs Than \u2014 Know the difference.",
     "tts": [
       "A2 English: then versus than.",
       "Then means next in time or order. First eat, then go out.",
       "Than is used for comparisons. She is taller than me.",
       "Then is time. Than is comparison. Know the difference.",
-      "Quiz: First we finish work, then or than we go home?",
+      "Quiz: First we finish work, blank we go home.",
       "Answer: then. Then means next, than is for comparisons."
     ]
   },
@@ -397,13 +397,13 @@
     ],
     "result_line1": "TEACH = give instruction",
     "result_line2": "LEARN = receive knowledge",
-    "promo_tagline": "Teach vs Learn — Know the difference.",
+    "promo_tagline": "Teach vs Learn \u2014 Know the difference.",
     "tts": [
       "A2 English: teach versus learn.",
       "Teach means give knowledge or instruction. She teaches math.",
       "Learn means receive knowledge or skill. I want to learn Spanish.",
       "Teach gives information. Learn receives it. Know the difference.",
-      "Quiz: Mister Jones blank us English every morning.",
+      "Quiz: Mr. Jones blank us English every morning.",
       "Answer: teaches. Teach gives, learn receives."
     ]
   },
@@ -448,7 +448,7 @@
     ],
     "result_line1": "BORROW = take temporarily",
     "result_line2": "LEND = give temporarily",
-    "promo_tagline": "Borrow vs Lend — Know the difference.",
+    "promo_tagline": "Borrow vs Lend \u2014 Know the difference.",
     "tts": [
       "A2 English: borrow versus lend.",
       "Borrow means to take something temporarily. Can I borrow your book?",
@@ -499,7 +499,7 @@
     ],
     "result_line1": "WEATHER = climate (noun)",
     "result_line2": "WHETHER = choice (conjunction)",
-    "promo_tagline": "Weather vs Whether — Know the difference.",
+    "promo_tagline": "Weather vs Whether \u2014 Know the difference.",
     "tts": [
       "B1 English: weather versus whether.",
       "Weather refers to rain, sun or temperature. The weather is nice.",
@@ -550,7 +550,7 @@
     ],
     "result_line1": "ADVICE = suggestion (noun)",
     "result_line2": "ADVISE = to recommend (verb)",
-    "promo_tagline": "Advice vs Advise — Know the difference.",
+    "promo_tagline": "Advice vs Advise \u2014 Know the difference.",
     "tts": [
       "B1 English: advice versus advise.",
       "Advice is a noun meaning a suggestion. Take my advice.",
@@ -601,7 +601,7 @@
     ],
     "result_line1": "PRACTICE = noun (the thing)",
     "result_line2": "PRACTISE = verb (the action)",
-    "promo_tagline": "Practice vs Practise — Know the difference.",
+    "promo_tagline": "Practice vs Practise \u2014 Know the difference.",
     "tts": [
       "B2 English: practice versus practise.",
       "Practice is a noun. Practice makes perfect.",
@@ -652,7 +652,7 @@
     ],
     "result_line1": "LICENCE = noun (the permit)",
     "result_line2": "LICENSE = verb (to permit)",
-    "promo_tagline": "Licence vs License — Know the difference.",
+    "promo_tagline": "Licence vs License \u2014 Know the difference.",
     "tts": [
       "B2 English: licence versus license.",
       "Licence is a noun meaning a permit. I have a driving licence.",
@@ -703,7 +703,7 @@
     ],
     "result_line1": "COMPLEMENT = goes well with",
     "result_line2": "COMPLIMENT = praise / flattery",
-    "promo_tagline": "Complement vs Compliment — Know the difference.",
+    "promo_tagline": "Complement vs Compliment \u2014 Know the difference.",
     "tts": [
       "B2 English: complement versus compliment.",
       "Complement means completes or goes well with. That wine complements the meal.",
@@ -754,7 +754,7 @@
     ],
     "result_line1": "STATIONARY = not moving",
     "result_line2": "STATIONERY = writing materials",
-    "promo_tagline": "Stationary vs Stationery — Know the difference.",
+    "promo_tagline": "Stationary vs Stationery \u2014 Know the difference.",
     "tts": [
       "B2 English: stationary versus stationery.",
       "Stationary means not moving. The car remained stationary.",
@@ -805,7 +805,7 @@
     ],
     "result_line1": "PRINCIPAL = main / most important",
     "result_line2": "PRINCIPLE = a rule or belief",
-    "promo_tagline": "Principal vs Principle — Know the difference.",
+    "promo_tagline": "Principal vs Principle \u2014 Know the difference.",
     "tts": [
       "B2 English: principal versus principle.",
       "Principal means main or the head of a school. The school principal spoke.",
@@ -856,7 +856,7 @@
     ],
     "result_line1": "COUNCIL = governing body",
     "result_line2": "COUNSEL = advice or lawyer",
-    "promo_tagline": "Council vs Counsel — Know the difference.",
+    "promo_tagline": "Council vs Counsel \u2014 Know the difference.",
     "tts": [
       "C1 English: council versus counsel.",
       "Council is a governing body. The city council met yesterday.",
@@ -907,13 +907,13 @@
     ],
     "result_line1": "EMIGRATE = leave from",
     "result_line2": "IMMIGRATE = move to",
-    "promo_tagline": "Emigrate vs Immigrate — Know the difference.",
+    "promo_tagline": "Emigrate vs Immigrate \u2014 Know the difference.",
     "tts": [
       "C1 English: emigrate versus immigrate.",
       "Emigrate means leave your country to live elsewhere. They emigrated from Ireland.",
       "Immigrate means move to a new country. They immigrated to Canada.",
       "Emigrate is leaving. Immigrate is arriving.",
-      "Quiz: Many people blank from Syria to Europe.",
+      "Quiz: Many people blank from Syria to Europe in 2015.",
       "Answer: emigrated. They left Syria."
     ]
   },
@@ -958,7 +958,7 @@
     ],
     "result_line1": "DISCREET = careful, subtle",
     "result_line2": "DISCRETE = separate, distinct",
-    "promo_tagline": "Discreet vs Discrete — Know the difference.",
+    "promo_tagline": "Discreet vs Discrete \u2014 Know the difference.",
     "tts": [
       "C1 English: discreet versus discrete.",
       "Discreet means careful or subtle. He was very discreet about the secret.",
@@ -1009,7 +1009,7 @@
     ],
     "result_line1": "ELICIT = to draw out",
     "result_line2": "ILLICIT = illegal, forbidden",
-    "promo_tagline": "Elicit vs Illicit — Know the difference.",
+    "promo_tagline": "Elicit vs Illicit \u2014 Know the difference.",
     "tts": [
       "C1 English: elicit versus illicit.",
       "Elicit is a verb meaning to draw out. The joke elicited laughter.",
@@ -1060,7 +1060,7 @@
     ],
     "result_line1": "DISINTERESTED = impartial",
     "result_line2": "UNINTERESTED = not interested",
-    "promo_tagline": "Disinterested vs Uninterested — Know the difference.",
+    "promo_tagline": "Disinterested vs Uninterested \u2014 Know the difference.",
     "tts": [
       "C2 English: disinterested versus uninterested.",
       "Disinterested means impartial or neutral. A judge must be disinterested.",
@@ -1111,7 +1111,7 @@
     ],
     "result_line1": "FLAUNT = show off",
     "result_line2": "FLOUT = break rules openly",
-    "promo_tagline": "Flaunt vs Flout — Know the difference.",
+    "promo_tagline": "Flaunt vs Flout \u2014 Know the difference.",
     "tts": [
       "C2 English: flaunt versus flout.",
       "Flaunt means to show off deliberately. She flaunted her new car.",
@@ -1157,18 +1157,18 @@
       "Favourable outcome"
     ],
     "quiz_question": [
-      "Their meeting was ___ —",
+      "Their meeting was ___ \u2014",
       "neither of them planned it."
     ],
     "result_line1": "FORTUITOUS = by chance",
     "result_line2": "FORTUNATE = lucky",
-    "promo_tagline": "Fortuitous vs Fortunate — Know the difference.",
+    "promo_tagline": "Fortuitous vs Fortunate \u2014 Know the difference.",
     "tts": [
       "C2 English: fortuitous versus fortunate.",
       "Fortuitous means happening by chance. It was a fortuitous meeting.",
       "Fortunate means lucky. We were fortunate to survive.",
       "Fortuitous is about chance. Fortunate is about luck.",
-      "Quiz: Their meeting was blank, neither planned it.",
+      "Quiz: Their meeting was blank \u2014 neither of them planned it.",
       "Answer: fortuitous. It happened by chance."
     ]
   },
@@ -1213,7 +1213,7 @@
     ],
     "result_line1": "APPRAISE = assess value",
     "result_line2": "APPRISE = inform",
-    "promo_tagline": "Appraise vs Apprise — Know the difference.",
+    "promo_tagline": "Appraise vs Apprise \u2014 Know the difference.",
     "tts": [
       "C2 English: appraise versus apprise.",
       "Appraise means to assess the value of something. They appraised the house.",
@@ -1264,7 +1264,7 @@
     ],
     "result_line1": "TORTUOUS = winding, complex",
     "result_line2": "TORTUROUS = extremely painful",
-    "promo_tagline": "Tortuous vs Torturous — Know the difference.",
+    "promo_tagline": "Tortuous vs Torturous \u2014 Know the difference.",
     "tts": [
       "C2 English: tortuous versus torturous.",
       "Tortuous means winding or complex. It was a tortuous mountain road.",
@@ -1315,7 +1315,7 @@
     ],
     "result_line1": "ENSURE = make certain",
     "result_line2": "INSURE = protect financially",
-    "promo_tagline": "Ensure vs Insure — Know the difference.",
+    "promo_tagline": "Ensure vs Insure \u2014 Know the difference.",
     "tts": [
       "B2 English: ensure versus insure.",
       "Ensure means to make certain. Please ensure the door is locked.",
@@ -1366,13 +1366,13 @@
     ],
     "result_line1": "ECONOMIC = about the economy",
     "result_line2": "ECONOMICAL = cheap, efficient",
-    "promo_tagline": "Economic vs Economical — Know the difference.",
+    "promo_tagline": "Economic vs Economical \u2014 Know the difference.",
     "tts": [
       "B2 English: economic versus economical.",
       "Economic relates to the economy. Economic growth is slow.",
       "Economical means cheap or efficient. This car is very economical.",
       "Economic is about the system. Economical is about saving money.",
-      "Quiz: The government announced new blank reforms.",
+      "Quiz: The government announced new blank reforms this week.",
       "Answer: economic. They relate to the economy."
     ]
   },
@@ -1417,13 +1417,13 @@
     ],
     "result_line1": "WIN = finish first",
     "result_line2": "BEAT = defeat an opponent",
-    "promo_tagline": "Win vs Beat — Know the difference.",
+    "promo_tagline": "Win vs Beat \u2014 Know the difference.",
     "tts": [
       "A2 English: win versus beat.",
       "Win means finish first. We won the match.",
       "Beat means defeat an opponent. They beat us three to one.",
       "You win a game. You beat a team.",
-      "Quiz: Our team blank the final last night.",
+      "Quiz: Our team blank the final last night!",
       "Answer: won. They finished first."
     ]
   },
@@ -1468,7 +1468,7 @@
     ],
     "result_line1": "COME = toward the speaker",
     "result_line2": "GO = away from speaker",
-    "promo_tagline": "Come vs Go — Know the difference.",
+    "promo_tagline": "Come vs Go \u2014 Know the difference.",
     "tts": [
       "A2 English: come versus go.",
       "Come means move toward the speaker. Come here please.",
@@ -1519,7 +1519,7 @@
     ],
     "result_line1": "LIE = recline (no object)",
     "result_line2": "LAY = put down (has object)",
-    "promo_tagline": "Lie vs Lay — Know the difference.",
+    "promo_tagline": "Lie vs Lay \u2014 Know the difference.",
     "tts": [
       "B1 English: lie versus lay.",
       "Lie means be in a flat position. I lie on the sofa.",
@@ -1570,7 +1570,7 @@
     ],
     "result_line1": "EXPECT = believe will happen",
     "result_line2": "WAIT = pass time until",
-    "promo_tagline": "Expect vs Wait — Know the difference.",
+    "promo_tagline": "Expect vs Wait \u2014 Know the difference.",
     "tts": [
       "B1 English: expect versus wait.",
       "Expect means believe something will happen. I expect a call.",
@@ -1621,7 +1621,7 @@
     ],
     "result_line1": "HISTORIC = important in history",
     "result_line2": "HISTORICAL = related to history",
-    "promo_tagline": "Historic vs Historical — Know the difference.",
+    "promo_tagline": "Historic vs Historical \u2014 Know the difference.",
     "tts": [
       "C1 English: historic versus historical.",
       "Historic means famous or important in history. It was a historic victory.",
@@ -1672,7 +1672,7 @@
     ],
     "result_line1": "DEFECTIVE = faulty, broken",
     "result_line2": "DEFICIENT = lacking, insufficient",
-    "promo_tagline": "Defective vs Deficient — Know the difference.",
+    "promo_tagline": "Defective vs Deficient \u2014 Know the difference.",
     "tts": [
       "C1 English: defective versus deficient.",
       "Defective means faulty. The laptop was defective.",
@@ -1723,13 +1723,13 @@
     ],
     "result_line1": "ALTERNATE = every other",
     "result_line2": "ALTERNATIVE = different option",
-    "promo_tagline": "Alternate vs Alternative — Know the difference.",
+    "promo_tagline": "Alternate vs Alternative \u2014 Know the difference.",
     "tts": [
       "C1 English: alternate versus alternative.",
       "Alternate means every other one. We meet on alternate days.",
       "Alternative means a different option. Take an alternative route.",
       "Alternate is about turns. Alternative is about choices.",
-      "Quiz: We take the highway, the blank route is too long.",
+      "Quiz: We take the highway; the blank route is too long.",
       "Answer: alternative. It is another option."
     ]
   },
@@ -1774,7 +1774,7 @@
     ],
     "result_line1": "CONTINUOUS = without stopping",
     "result_line2": "CONTINUAL = repeated, with breaks",
-    "promo_tagline": "Continuous vs Continual — Know the difference.",
+    "promo_tagline": "Continuous vs Continual \u2014 Know the difference.",
     "tts": [
       "C1 English: continuous versus continual.",
       "Continuous means without interruption. It rained continuously all day.",
@@ -1825,7 +1825,7 @@
     ],
     "result_line1": "MITIGATE = make less severe",
     "result_line2": "MILITATE = work against",
-    "promo_tagline": "Mitigate vs Militate — Know the difference.",
+    "promo_tagline": "Mitigate vs Militate \u2014 Know the difference.",
     "tts": [
       "C2 English: mitigate versus militate.",
       "Mitigate means make less severe. New rules mitigate the risk.",
@@ -1876,7 +1876,7 @@
     ],
     "result_line1": "DEPRECATE = disapprove / obsolete",
     "result_line2": "DEPRECIATE = lose value",
-    "promo_tagline": "Deprecate vs Depreciate — Know the difference.",
+    "promo_tagline": "Deprecate vs Depreciate \u2014 Know the difference.",
     "tts": [
       "C2 English: deprecate versus depreciate.",
       "Deprecate means disapprove or mark as obsolete. The feature is deprecated.",
@@ -1927,7 +1927,7 @@
     ],
     "result_line1": "PERSPICACIOUS = shrewd insight",
     "result_line2": "PERSPICUOUS = clear, lucid",
-    "promo_tagline": "Perspicacious vs Perspicuous — Know the difference.",
+    "promo_tagline": "Perspicacious vs Perspicuous \u2014 Know the difference.",
     "tts": [
       "C2 English: perspicacious versus perspicuous.",
       "Perspicacious means shrewd with keen insight. She is a perspicacious analyst.",
@@ -1978,7 +1978,7 @@
     ],
     "result_line1": "PROPHECY = prediction (noun)",
     "result_line2": "PROPHESY = to predict (verb)",
-    "promo_tagline": "Prophecy vs Prophesy — Know the difference.",
+    "promo_tagline": "Prophecy vs Prophesy \u2014 Know the difference.",
     "tts": [
       "C2 English: prophecy versus prophesy.",
       "Prophecy is a noun meaning a prediction. The prophecy came true.",
@@ -2031,13 +2031,13 @@
     "result_line1": "LAY = put something down",
     "result_line2": "LIE = recline by yourself",
     "promo_link": "vibte.com",
-    "promo_tagline": "Lay vs Lie — Know the difference.",
+    "promo_tagline": "Lay vs Lie \u2014 Know the difference.",
     "tts": [
       "B1 English: lay versus lie.",
       "Lay means put something down. He lays the book on the table.",
       "Lie means recline or rest. I need to lie down.",
       "Lay puts an object down. Lie means rest. Know the difference.",
-      "Quiz: after work I need to blank down for a while.",
+      "Quiz: After work, I need to blank down for a while.",
       "Answer: lie. Lie means recline. Lay means put down."
     ],
     "episode_id_slug": "lay-vs-lie",
@@ -2087,7 +2087,7 @@
     ],
     "result_line1": "ACCEPT = receive willingly",
     "result_line2": "EXCEPT = excluding",
-    "promo_tagline": "Accept vs Except — Know the difference.",
+    "promo_tagline": "Accept vs Except \u2014 Know the difference.",
     "tts": [
       "B1 English: accept versus except.",
       "Accept means to receive willingly. Please accept my apology.",
@@ -2122,12 +2122,12 @@
     "word2_example": "\"This shirt is too loose.\"",
     "word2_icon": "group",
     "cards_header": "LOSE vs LOOSE",
-    "word1_card_sub": "Verb — misplace",
+    "word1_card_sub": "Verb \u2014 misplace",
     "word1_card_lines": [
       "Lose your keys",
       "Lose a game"
     ],
-    "word2_card_sub": "Adjective — not tight",
+    "word2_card_sub": "Adjective \u2014 not tight",
     "word2_card_lines": [
       "Loose clothing",
       "Loose screws"
@@ -2138,7 +2138,7 @@
     ],
     "result_line1": "LOSE = verb, to misplace",
     "result_line2": "LOOSE = adjective, not tight",
-    "promo_tagline": "Lose vs Loose — Know the difference.",
+    "promo_tagline": "Lose vs Loose \u2014 Know the difference.",
     "tts": [
       "A2 English: lose versus loose.",
       "Lose is a verb meaning to misplace. Don't lose your keys.",
@@ -2189,13 +2189,13 @@
     ],
     "result_line1": "DESERT = dry place",
     "result_line2": "DESSERT = sweet treat (2 s's)",
-    "promo_tagline": "Desert vs Dessert — Know the difference.",
+    "promo_tagline": "Desert vs Dessert \u2014 Know the difference.",
     "tts": [
       "A2 English: desert versus dessert.",
       "Desert is a dry wasteland or to abandon. The Sahara is a vast desert.",
       "Dessert is a sweet treat after a meal. I want chocolate for dessert.",
       "Desert has one S and means dry. Dessert has two S's and means sweet. Know the difference.",
-      "Quiz: After dinner, let's have a sweet blank.",
+      "Quiz: After dinner, let's have a sweet blank.  (2 s's)",
       "Answer: dessert. The sweet course has two S's."
     ]
   },
@@ -2240,7 +2240,7 @@
     ],
     "result_line1": "FARTHER = physical distance",
     "result_line2": "FURTHER = figurative extent",
-    "promo_tagline": "Farther vs Further — Know the difference.",
+    "promo_tagline": "Farther vs Further \u2014 Know the difference.",
     "tts": [
       "B2 English: farther versus further.",
       "Farther refers to physical distance. We walked farther today.",
@@ -2291,7 +2291,7 @@
     ],
     "result_line1": "IMPLY = speaker suggests",
     "result_line2": "INFER = listener deduces",
-    "promo_tagline": "Imply vs Infer — Know the difference.",
+    "promo_tagline": "Imply vs Infer \u2014 Know the difference.",
     "tts": [
       "C1 English: imply versus infer.",
       "Imply means to suggest without stating. You imply I am wrong.",
@@ -2326,12 +2326,12 @@
     "word2_example": "\"Remember to breathe slowly.\"",
     "word2_icon": "arrow",
     "cards_header": "BREATH vs BREATHE",
-    "word1_card_sub": "Noun — the air",
+    "word1_card_sub": "Noun \u2014 the air",
     "word1_card_lines": [
       "Take a breath",
       "Out of breath"
     ],
-    "word2_card_sub": "Verb — the action",
+    "word2_card_sub": "Verb \u2014 the action",
     "word2_card_lines": [
       "Just breathe",
       "Breathe deeply"
@@ -2342,7 +2342,7 @@
     ],
     "result_line1": "BREATH = noun (the air)",
     "result_line2": "BREATHE = verb (the action)",
-    "promo_tagline": "Breath vs Breathe — Know the difference.",
+    "promo_tagline": "Breath vs Breathe \u2014 Know the difference.",
     "tts": [
       "B1 English: breath versus breathe.",
       "Breath is a noun meaning the air you take in. Take a deep breath.",
@@ -2393,7 +2393,7 @@
     ],
     "result_line1": "ADAPT = adjust to fit",
     "result_line2": "ADOPT = take as your own",
-    "promo_tagline": "Adapt vs Adopt — Know the difference.",
+    "promo_tagline": "Adapt vs Adopt \u2014 Know the difference.",
     "tts": [
       "B2 English: adapt versus adopt.",
       "Adapt means to adjust to conditions. We adapted to the cold.",
@@ -2444,7 +2444,7 @@
     ],
     "result_line1": "AVERSE = personal dislike",
     "result_line2": "ADVERSE = harmful/unfavorable",
-    "promo_tagline": "Averse vs Adverse — Know the difference.",
+    "promo_tagline": "Averse vs Adverse \u2014 Know the difference.",
     "tts": [
       "C1 English: averse versus adverse.",
       "Averse means strongly disliking. He is averse to risk.",
@@ -2495,7 +2495,7 @@
     ],
     "result_line1": "COUNCIL = the body",
     "result_line2": "COUNSEL = advice / advise",
-    "promo_tagline": "Council vs Counsel — Know the difference.",
+    "promo_tagline": "Council vs Counsel \u2014 Know the difference.",
     "tts": [
       "B2 English: council versus counsel.",
       "Council is a noun meaning an advisory or governing body. The council voted yes.",
@@ -2530,12 +2530,12 @@
     "word2_example": "\"Fog can envelop a city.\"",
     "word2_icon": "arrow",
     "cards_header": "ENVELOPE vs ENVELOP",
-    "word1_card_sub": "Noun — the wrapper (stress E)",
+    "word1_card_sub": "Noun \u2014 the wrapper (stress E)",
     "word1_card_lines": [
       "Letter envelope",
       "Push the envelope"
     ],
-    "word2_card_sub": "Verb — to surround (stress EN)",
+    "word2_card_sub": "Verb \u2014 to surround (stress EN)",
     "word2_card_lines": [
       "Envelop the house",
       "Enveloped in mist"
@@ -2546,7 +2546,7 @@
     ],
     "result_line1": "ENVELOPE = noun (AY envelope)",
     "result_line2": "ENVELOP = verb (en VEL up)",
-    "promo_tagline": "Envelope vs Envelop — Know the difference.",
+    "promo_tagline": "Envelope vs Envelop \u2014 Know the difference.",
     "tts": [
       "C1 English: envelope versus envelop.",
       "Envelope is a noun meaning a paper wrapper. Seal the envelope.",
@@ -2597,7 +2597,7 @@
     ],
     "result_line1": "SAY = utter words (no object)",
     "result_line2": "TELL = communicate to someone",
-    "promo_tagline": "Say vs Tell — Know the difference.",
+    "promo_tagline": "Say vs Tell \u2014 Know the difference.",
     "tts": [
       "A2 English: say versus tell.",
       "Say means to utter words. He said hello.",
@@ -2648,7 +2648,7 @@
     ],
     "result_line1": "SPEAK = language / formal",
     "result_line2": "TALK = conversation",
-    "promo_tagline": "Speak vs Talk — Know the difference.",
+    "promo_tagline": "Speak vs Talk \u2014 Know the difference.",
     "tts": [
       "A2 English: speak versus talk.",
       "Speak means to use a language or formal address. I speak English.",
@@ -2699,11 +2699,11 @@
     ],
     "result_line1": "HEAR = passive reception",
     "result_line2": "LISTEN = active attention",
-    "promo_tagline": "Hear vs Listen — Know the difference.",
+    "promo_tagline": "Hear vs Listen \u2014 Know the difference.",
     "tts": [
       "A2 English: hear versus listen.",
-      "Hear is passive — sound reaches your ears. I heard a noise.",
-      "Listen is active — you pay attention. Listen to the music.",
+      "Hear is passive \u2014 sound reaches your ears. I heard a noise.",
+      "Listen is active \u2014 you pay attention. Listen to the music.",
       "Hear happens to you. Listen is what you do. Know the difference.",
       "Quiz: I didn't blank the phone, I wasn't blank.",
       "Answer: hear and listen. Hear is passive, listen is active."
@@ -2750,11 +2750,11 @@
     ],
     "result_line1": "JOB = a position (countable)",
     "result_line2": "WORK = activity (uncountable)",
-    "promo_tagline": "Job vs Work — Know the difference.",
+    "promo_tagline": "Job vs Work \u2014 Know the difference.",
     "tts": [
       "A2 English: job versus work.",
-      "Job is a countable noun — a specific position. I have a new job.",
-      "Work is uncountable — the activity itself. The work is hard.",
+      "Job is a countable noun \u2014 a specific position. I have a new job.",
+      "Work is uncountable \u2014 the activity itself. The work is hard.",
       "You can have multiple jobs. Work is what you do. Know the difference.",
       "Quiz: She got a new blank, but the blank is hard.",
       "Answer: job and work. Job is countable, work is uncountable."
@@ -2801,7 +2801,7 @@
     ],
     "result_line1": "FUN = enjoyment",
     "result_line2": "FUNNY = makes you laugh",
-    "promo_tagline": "Fun vs Funny — Know the difference.",
+    "promo_tagline": "Fun vs Funny \u2014 Know the difference.",
     "tts": [
       "B1 English: fun versus funny.",
       "Fun means enjoyment or entertaining. The party was fun.",
@@ -2852,7 +2852,7 @@
     ],
     "result_line1": "REMEMBER = recall yourself",
     "result_line2": "REMIND = make another recall",
-    "promo_tagline": "Remember vs Remind — Know the difference.",
+    "promo_tagline": "Remember vs Remind \u2014 Know the difference.",
     "tts": [
       "B1 English: remember versus remind.",
       "Remember means to recall from your own memory. I remember my childhood.",
@@ -2903,7 +2903,7 @@
     ],
     "result_line1": "ESPECIALLY = particularly",
     "result_line2": "SPECIALLY = for special purpose",
-    "promo_tagline": "Especially vs Specially — Know the difference.",
+    "promo_tagline": "Especially vs Specially \u2014 Know the difference.",
     "tts": [
       "B2 English: especially versus specially.",
       "Especially means particularly or above all. I love fruit, especially mango.",
@@ -2954,13 +2954,13 @@
     ],
     "result_line1": "CONTINUAL = repeated intervals",
     "result_line2": "CONTINUOUS = without pause",
-    "promo_tagline": "Continual vs Continuous — Know the difference.",
+    "promo_tagline": "Continual vs Continuous \u2014 Know the difference.",
     "tts": [
       "B2 English: continual versus continuous.",
       "Continual means repeated frequently with breaks. Continual interruptions.",
       "Continuous means without interruption. Continuous noise.",
       "Continual comes and goes. Continuous never stops. Know the difference.",
-      "Quiz: The blank rain stopped and started. The blank hum never ended.",
+      "Quiz: The blank rain stopped and started all day. The blank hum never ended.",
       "Answer: continual and continuous. Continual has breaks, continuous doesn't."
     ]
   },
@@ -3005,7 +3005,7 @@
     ],
     "result_line1": "STATIONARY = not moving",
     "result_line2": "STATIONERY = writing paper",
-    "promo_tagline": "Stationary vs Stationery — Know the difference.",
+    "promo_tagline": "Stationary vs Stationery \u2014 Know the difference.",
     "tts": [
       "C1 English: stationary versus stationery.",
       "Stationary means not moving. The car remained stationary.",
@@ -3056,7 +3056,7 @@
     ],
     "result_line1": "PRECEDE = come before",
     "result_line2": "PROCEED = go forward",
-    "promo_tagline": "Precede vs Proceed — Know the difference.",
+    "promo_tagline": "Precede vs Proceed \u2014 Know the difference.",
     "tts": [
       "C1 English: precede versus proceed.",
       "Precede means to come before. A precedes B in the alphabet.",
@@ -3107,13 +3107,13 @@
     ],
     "result_line1": "CLIENT = Person who pays for services",
     "result_line2": "CUSTOMER = Person who buys goods",
-    "promo_tagline": "Client vs Customer — Know the difference.",
+    "promo_tagline": "Client vs Customer \u2014 Know the difference.",
     "tts": [
       "B1 English: client versus customer.",
       "Client means person who pays for services. \"We value every client.\".",
       "Customer means person who buys goods. \"The customer is always right.\".",
       "Client is person who pays for services. Customer is person who buys goods. Know the difference.",
-      "Quiz: Choose the right word — Client or Customer?",
+      "Quiz: Choose: Client or Customer? Fill in the blank.",
       "Answer: client. Client means person who pays for services."
     ]
   },
@@ -3158,13 +3158,13 @@
     ],
     "result_line1": "CAREER = Long-term professional path",
     "result_line2": "JOB = Specific position",
-    "promo_tagline": "Career vs Job — Know the difference.",
+    "promo_tagline": "Career vs Job \u2014 Know the difference.",
     "tts": [
       "B1 English: career versus job.",
       "Career means long-term professional path. \"She built a career in law.\".",
       "Job means specific position. \"He got a new job.\".",
       "Career is long-term professional path. Job is specific position. Know the difference.",
-      "Quiz: Choose the right word — Career or Job?",
+      "Quiz: Choose: Career or Job? Fill in the blank.",
       "Answer: career. Career means long-term professional path."
     ]
   },
@@ -3209,13 +3209,13 @@
     ],
     "result_line1": "BUSINESS = Commercial activity",
     "result_line2": "COMPANY = Legal entity",
-    "promo_tagline": "Business vs Company — Know the difference.",
+    "promo_tagline": "Business vs Company \u2014 Know the difference.",
     "tts": [
       "B1 English: business versus company.",
       "Business means commercial activity. \"He runs a business.\".",
       "Company means legal entity. \"She works for a company.\".",
       "Business is commercial activity. Company is legal entity. Know the difference.",
-      "Quiz: Choose the right word — Business or Company?",
+      "Quiz: Choose: Business or Company? Fill in the blank.",
       "Answer: business. Business means commercial activity."
     ]
   },
@@ -3260,13 +3260,13 @@
     ],
     "result_line1": "MEETING = Group discussion",
     "result_line2": "APPOINTMENT = Scheduled time",
-    "promo_tagline": "Meeting vs Appointment — Know the difference.",
+    "promo_tagline": "Meeting vs Appointment \u2014 Know the difference.",
     "tts": [
       "B1 English: meeting versus appointment.",
       "Meeting means group discussion. \"Team meeting at 10.\".",
       "Appointment means scheduled time. \"Doctor appointment at 3.\".",
       "Meeting is group discussion. Appointment is scheduled time. Know the difference.",
-      "Quiz: Choose the right word — Meeting or Appointment?",
+      "Quiz: Choose: Meeting or Appointment? Fill in the blank.",
       "Answer: meeting. Meeting means group discussion."
     ]
   },
@@ -3311,13 +3311,13 @@
     ],
     "result_line1": "PROJECT = Multi-step initiative",
     "result_line2": "TASK = Single piece of work",
-    "promo_tagline": "Project vs Task — Know the difference.",
+    "promo_tagline": "Project vs Task \u2014 Know the difference.",
     "tts": [
       "B1 English: project versus task.",
       "Project means multi-step initiative. \"The project took months.\".",
       "Task means single piece of work. \"Finish this task today.\".",
       "Project is multi-step initiative. Task is single piece of work. Know the difference.",
-      "Quiz: Choose the right word — Project or Task?",
+      "Quiz: Choose: Project or Task? Fill in the blank.",
       "Answer: project. Project means multi-step initiative."
     ]
   },
@@ -3362,13 +3362,13 @@
     ],
     "result_line1": "GOAL = Desired outcome",
     "result_line2": "OBJECTIVE = Measurable target",
-    "promo_tagline": "Goal vs Objective — Know the difference.",
+    "promo_tagline": "Goal vs Objective \u2014 Know the difference.",
     "tts": [
       "B1 English: goal versus objective.",
       "Goal means desired outcome. \"My goal is fluency.\".",
       "Objective means measurable target. \"Objective: pass B2.\".",
       "Goal is desired outcome. Objective is measurable target. Know the difference.",
-      "Quiz: Choose the right word — Goal or Objective?",
+      "Quiz: Choose: Goal or Objective? Fill in the blank.",
       "Answer: goal. Goal means desired outcome."
     ]
   },
@@ -3413,13 +3413,13 @@
     ],
     "result_line1": "SKILL = Learned capability",
     "result_line2": "ABILITY = Natural or learned capacity",
-    "promo_tagline": "Skill vs Ability — Know the difference.",
+    "promo_tagline": "Skill vs Ability \u2014 Know the difference.",
     "tts": [
       "B1 English: skill versus ability.",
       "Skill means learned capability. \"Coding is a skill.\".",
       "Ability means natural or learned capacity. \"He has the ability to lead.\".",
       "Skill is learned capability. Ability is natural or learned capacity. Know the difference.",
-      "Quiz: Choose the right word — Skill or Ability?",
+      "Quiz: Choose: Skill or Ability? Fill in the blank.",
       "Answer: skill. Skill means learned capability."
     ]
   },
@@ -3464,13 +3464,13 @@
     ],
     "result_line1": "EXPERIENCE = Practical involvement",
     "result_line2": "KNOWLEDGE = Theoretical understanding",
-    "promo_tagline": "Experience vs Knowledge — Know the difference.",
+    "promo_tagline": "Experience vs Knowledge \u2014 Know the difference.",
     "tts": [
       "B1 English: experience versus knowledge.",
       "Experience means practical involvement. \"Experience teaches.\".",
       "Knowledge means theoretical understanding. \"Knowledge is power.\".",
       "Experience is practical involvement. Knowledge is theoretical understanding. Know the difference.",
-      "Quiz: Choose the right word — Experience or Knowledge?",
+      "Quiz: Choose: Experience or Knowledge? Fill in the blank.",
       "Answer: experience. Experience means practical involvement."
     ]
   },
@@ -3515,13 +3515,13 @@
     ],
     "result_line1": "OPPORTUNITY = Favorable circumstance",
     "result_line2": "CHANCE = Possibility",
-    "promo_tagline": "Opportunity vs Chance — Know the difference.",
+    "promo_tagline": "Opportunity vs Chance \u2014 Know the difference.",
     "tts": [
       "B1 English: opportunity versus chance.",
       "Opportunity means favorable circumstance. \"Great opportunity!\".",
       "Chance means possibility. \"Take a chance.\".",
       "Opportunity is favorable circumstance. Chance is possibility. Know the difference.",
-      "Quiz: Choose the right word — Opportunity or Chance?",
+      "Quiz: Choose: Opportunity or Chance? Fill in the blank.",
       "Answer: opportunity. Opportunity means favorable circumstance."
     ]
   },
@@ -3566,13 +3566,13 @@
     ],
     "result_line1": "PROBLEM = Difficult situation",
     "result_line2": "ISSUE = Topic for discussion",
-    "promo_tagline": "Problem vs Issue — Know the difference.",
+    "promo_tagline": "Problem vs Issue \u2014 Know the difference.",
     "tts": [
       "B1 English: problem versus issue.",
       "Problem means difficult situation. \"Solve the problem.\".",
       "Issue means topic for discussion. \"Address the issue.\".",
       "Problem is difficult situation. Issue is topic for discussion. Know the difference.",
-      "Quiz: Choose the right word — Problem or Issue?",
+      "Quiz: Choose: Problem or Issue? Fill in the blank.",
       "Answer: problem. Problem means difficult situation."
     ]
   },
@@ -3617,13 +3617,13 @@
     ],
     "result_line1": "SOLUTION = Way to fix",
     "result_line2": "ANSWER = Response to question",
-    "promo_tagline": "Solution vs Answer — Know the difference.",
+    "promo_tagline": "Solution vs Answer \u2014 Know the difference.",
     "tts": [
       "B1 English: solution versus answer.",
       "Solution means way to fix. \"Found a solution.\".",
       "Answer means response to question. \"The answer is 42.\".",
       "Solution is way to fix. Answer is response to question. Know the difference.",
-      "Quiz: Choose the right word — Solution or Answer?",
+      "Quiz: Choose: Solution or Answer? Fill in the blank.",
       "Answer: solution. Solution means way to fix."
     ]
   },
@@ -3668,13 +3668,13 @@
     ],
     "result_line1": "DECISION = Conclusion reached",
     "result_line2": "CHOICE = Act of selecting",
-    "promo_tagline": "Decision vs Choice — Know the difference.",
+    "promo_tagline": "Decision vs Choice \u2014 Know the difference.",
     "tts": [
       "B1 English: decision versus choice.",
       "Decision means conclusion reached. \"Tough decision.\".",
       "Choice means act of selecting. \"Your choice.\".",
       "Decision is conclusion reached. Choice is act of selecting. Know the difference.",
-      "Quiz: Choose the right word — Decision or Choice?",
+      "Quiz: Choose: Decision or Choice? Fill in the blank.",
       "Answer: decision. Decision means conclusion reached."
     ]
   },
@@ -3719,13 +3719,13 @@
     ],
     "result_line1": "PLAN = Step-by-step method",
     "result_line2": "STRATEGY = High-level approach",
-    "promo_tagline": "Plan vs Strategy — Know the difference.",
+    "promo_tagline": "Plan vs Strategy \u2014 Know the difference.",
     "tts": [
       "B1 English: plan versus strategy.",
       "Plan means step-by-step method. \"Follow the plan.\".",
       "Strategy means high-level approach. \"Long-term strategy.\".",
       "Plan is step-by-step method. Strategy is high-level approach. Know the difference.",
-      "Quiz: Choose the right word — Plan or Strategy?",
+      "Quiz: Choose: Plan or Strategy? Fill in the blank.",
       "Answer: plan. Plan means step-by-step method."
     ]
   },
@@ -3770,13 +3770,13 @@
     ],
     "result_line1": "RESULT = What happened",
     "result_line2": "OUTCOME = Consequence",
-    "promo_tagline": "Result vs Outcome — Know the difference.",
+    "promo_tagline": "Result vs Outcome \u2014 Know the difference.",
     "tts": [
       "B1 English: result versus outcome.",
       "Result means what happened. \"Good result.\".",
       "Outcome means consequence. \"Positive outcome.\".",
       "Result is what happened. Outcome is consequence. Know the difference.",
-      "Quiz: Choose the right word — Result or Outcome?",
+      "Quiz: Choose: Result or Outcome? Fill in the blank.",
       "Answer: result. Result means what happened."
     ]
   },
@@ -3821,13 +3821,13 @@
     ],
     "result_line1": "SUCCESS = Favorable result",
     "result_line2": "ACHIEVEMENT = Accomplishment",
-    "promo_tagline": "Success vs Achievement — Know the difference.",
+    "promo_tagline": "Success vs Achievement \u2014 Know the difference.",
     "tts": [
       "B1 English: success versus achievement.",
       "Success means favorable result. \"Celebrate success.\".",
       "Achievement means accomplishment. \"Great achievement.\".",
       "Success is favorable result. Achievement is accomplishment. Know the difference.",
-      "Quiz: Choose the right word — Success or Achievement?",
+      "Quiz: Choose: Success or Achievement? Fill in the blank.",
       "Answer: success. Success means favorable result."
     ]
   },
@@ -3872,13 +3872,13 @@
     ],
     "result_line1": "RISK = Possibility of loss",
     "result_line2": "DANGER = Serious threat",
-    "promo_tagline": "Risk vs Danger — Know the difference.",
+    "promo_tagline": "Risk vs Danger \u2014 Know the difference.",
     "tts": [
       "B1 English: risk versus danger.",
       "Risk means possibility of loss. \"Calculated risk.\".",
       "Danger means serious threat. \"Immediate danger.\".",
       "Risk is possibility of loss. Danger is serious threat. Know the difference.",
-      "Quiz: Choose the right word — Risk or Danger?",
+      "Quiz: Choose: Risk or Danger? Fill in the blank.",
       "Answer: risk. Risk means possibility of loss."
     ]
   },
@@ -3923,13 +3923,13 @@
     ],
     "result_line1": "BENEFIT = Good effect",
     "result_line2": "ADVANTAGE = Favorable position",
-    "promo_tagline": "Benefit vs Advantage — Know the difference.",
+    "promo_tagline": "Benefit vs Advantage \u2014 Know the difference.",
     "tts": [
       "B1 English: benefit versus advantage.",
       "Benefit means good effect. \"Health benefits.\".",
       "Advantage means favorable position. \"Competitive advantage.\".",
       "Benefit is good effect. Advantage is favorable position. Know the difference.",
-      "Quiz: Choose the right word — Benefit or Advantage?",
+      "Quiz: Choose: Benefit or Advantage? Fill in the blank.",
       "Answer: benefit. Benefit means good effect."
     ]
   },
@@ -3974,13 +3974,13 @@
     ],
     "result_line1": "COST = What you give up",
     "result_line2": "PRICE = Amount paid",
-    "promo_tagline": "Cost vs Price — Know the difference.",
+    "promo_tagline": "Cost vs Price \u2014 Know the difference.",
     "tts": [
       "B1 English: cost versus price.",
       "Cost means what you give up. \"High cost.\".",
       "Price means amount paid. \"Fair price.\".",
       "Cost is what you give up. Price is amount paid. Know the difference.",
-      "Quiz: Choose the right word — Cost or Price?",
+      "Quiz: Choose: Cost or Price? Fill in the blank.",
       "Answer: cost. Cost means what you give up."
     ]
   },
@@ -4025,13 +4025,13 @@
     ],
     "result_line1": "QUALITY = Level of excellence",
     "result_line2": "STANDARD = Required level",
-    "promo_tagline": "Quality vs Standard — Know the difference.",
+    "promo_tagline": "Quality vs Standard \u2014 Know the difference.",
     "tts": [
       "B1 English: quality versus standard.",
       "Quality means level of excellence. \"High quality.\".",
       "Standard means required level. \"Meets standards.\".",
       "Quality is level of excellence. Standard is required level. Know the difference.",
-      "Quiz: Choose the right word — Quality or Standard?",
+      "Quiz: Choose: Quality or Standard? Fill in the blank.",
       "Answer: quality. Quality means level of excellence."
     ]
   }

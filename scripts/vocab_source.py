@@ -155,8 +155,8 @@ class VocabSource:
             "promo_tagline": f"{word.title()} vs {word2.title()} — Know the difference.",
             "tts": [
                 f"{level} English: {word} versus {word2}.",
-                f"{word.capitalize()} means {primary['definition']}. {primary['example']}.",
-                f"{word2.capitalize()} means {secondary['definition']}. {secondary['example']}.",
+                f"{word.capitalize()} means {primary['definition']}. {primary['example']}",
+                f"{word2.capitalize()} means {secondary['definition']}. {secondary['example']}",
                 f"{word} is about {primary['definition'][:20]}. {word2} is about {secondary['definition'][:20]}. Know the difference.",
                 f"Quiz: I need to blank the right word. {word} or {word2}?",
                 f"Answer: {word}. {word.capitalize()} means {primary['definition'][:30]}. {word2.capitalize()} means {secondary['definition'][:30]}.",
@@ -171,7 +171,7 @@ class VocabSource:
                 return {
                     "pos": pos,
                     "definition": f"Definition of {word} (from Oxford {w.get('level','').upper()})",
-                    "example": f'"{word.capitalize()} is used in context."',
+                    "example": f'"{word.capitalize()} example sentence."',
                 }
         return None
 
